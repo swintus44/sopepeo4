@@ -1,0 +1,1575 @@
+<!DOCTYPE html><html lang="en" data-scrapbook-source="https://littlepepe.com/" data-scrapbook-create="20250907011916858" data-scrapbook-adoptedstylesheet-0=":host { z-index: var(--w3m-z-index); display: block; backface-visibility: hidden; position: fixed; inset: 0px; pointer-events: none; opacity: 0; background-color: var(--wui-cover); transition: opacity 0.2s var(--wui-ease-out-power-2); will-change: opacity; }
+
+:host(.open) { opacity: 1; }
+
+:host(.embedded) { position: relative; pointer-events: unset; background: none; width: 100%; opacity: 1; }
+
+wui-card { max-width: var(--w3m-modal-width); width: 100%; position: relative; animation-name: ; animation-duration: ; animation-timing-function: ; animation-delay: ; animation-iteration-count: ; animation-direction: ; animation-play-state: ; animation-fill-mode: backwards; outline: none; transition: border-radius var(--wui-duration-lg) var(--wui-ease-out-power-1),
+      background-color var(--wui-duration-lg) var(--wui-ease-out-power-1); will-change: border-radius, background-color; }
+
+:host(.embedded) wui-card { max-width: 400px; }
+
+wui-card[shake=&quot;true&quot;] { animation: zoom-in 0.2s var(--wui-ease-out-power-2),
+      w3m-shake 0.5s var(--wui-ease-out-power-2); }
+
+wui-flex { overflow: hidden auto; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; }
+
+@media (max-height: 700px) and (min-width: 431px) {
+  wui-flex { align-items: flex-start; }
+  wui-card { margin: var(--wui-spacing-xxl) 0px; }
+}
+
+@media (max-width: 430px) {
+  wui-flex { align-items: flex-end; }
+  wui-card { max-width: 100%; border-bottom-left-radius: var(--local-border-bottom-mobile-radius); border-bottom-right-radius: var(--local-border-bottom-mobile-radius); border-bottom: medium; animation: slide-in 0.2s var(--wui-ease-out-power-2); }
+  wui-card[shake=&quot;true&quot;] { animation: slide-in 0.2s var(--wui-ease-out-power-2),
+        w3m-shake 0.5s var(--wui-ease-out-power-2); }
+}
+
+@keyframes zoom-in {
+  0% { transform: scale(0.95) translateY(0px); }
+  100% { transform: scale(1) translateY(0px); }
+}
+
+@keyframes slide-in {
+  0% { transform: scale(1) translateY(50px); }
+  100% { transform: scale(1) translateY(0px); }
+}
+
+@keyframes w3m-shake {
+  0% { transform: scale(1) rotate(0deg); }
+  20% { transform: scale(1) rotate(-1deg); }
+  40% { transform: scale(1) rotate(1.5deg); }
+  60% { transform: scale(1) rotate(-1.5deg); }
+  80% { transform: scale(1) rotate(1deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+@keyframes w3m-view-height {
+  0% { height: var(--prev-height); }
+  100% { height: var(--new-height); }
+}"><head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="favlogo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Pepe Presale | LILPEPE Token</title>
+        <meta name="”robots”" content="index, follow">
+        <meta name="description" content="Enter the new world order with LILPEPE, where the unstoppable force of memes meets their home in low cost, lighting fast layer 2 EVM protocol enabled by Little Pepe Chain.">
+        <meta name="keywords" content="Little Pepe, LILPEPE, PEPE, Little Pepe meme coin, lil pepe token, Presale, ICO, IEO, IDO, $LILPEPE, Little PEPE presale, LILPEPE Crypto Token, $PEPE, LILPEPE Token, little pepe Crypto, lilpepe crypto">
+        <meta property="og:site_name" content="Little Pepe Presale | LILPEPE Token">
+        <meta property="og:url" content="https://littlepepe.com/">
+        <meta property="og:title" content="Little Pepe Presale | LILPEPE Token">
+        <meta property="og:type" content="website">
+        <meta name="author" content="LILPEPE">
+        <meta property="og:description" content="Enter the new world order with LILPEPE, where the unstoppable force of memes meets their home in low cost, lighting fast layer 2 EVM protocol enabled by Little Pepe Chain.">
+        <meta property="og:image" content="https://littlepepe.com/html/assets/main.png">
+        <meta property="og:image:secure_url" content="https://littlepepe.com/html/assets/main.png">
+        <meta name="twitter:site" content="@littlepepetoken">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Little Pepe Presale | LILPEPE Token">
+        <meta name="twitter:image" content="https://littlepepe.com/html/assets/main.png">
+        <meta name="twitter:description" content="Enter the new world order with LILPEPE, where the unstoppable force of memes meets their home in low cost, lighting fast layer 2 EVM protocol enabled by Little Pepe Chain.">
+  <link rel="icon" type="image/png" href="./swap/favicon.png" sizes="16x16">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://littlepepe.com/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./swap/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./swap/favicon-16x16.png">
+  <link rel="manifest" href="https://littlepepe.com/site.webmanifest">
+  <!-- remix icon css  -->
+  <link rel="stylesheet" href="remixicon.css.html">
+  <!-- fontawesome icon css -->
+  <link rel="stylesheet" href="all.min.css.html">
+  <!-- Bootstrap icon css -->
+  <link rel="stylesheet" href="bootstrap-icons.min.css.html">
+
+  <link rel="stylesheet" href="plugins.min.css.html">
+  <!-- main css -->
+  <link rel="stylesheet" href="style.css.html">
+  
+  
+  
+<!-- Google tag (gtag.js) -->
+
+
+
+<!-- Google tag (gtag.js) -->
+
+
+
+<!-- Event snippet for Page view conversion page -->
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="index-DtvDwEog.css">
+    
+    
+    
+
+
+
+  <style id="_goober"> .go1475592160{height:0;}.go1671063245{height:auto;}.go1888806478{display:flex;flex-wrap:wrap;flex-grow:1;}@media (min-width:600px){.go1888806478{flex-grow:initial;min-width:288px;}}.go167266335{background-color:#313131;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;color:#fff;align-items:center;padding:6px 16px;border-radius:4px;box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.go3162094071{padding-left:20px;}.go3844575157{background-color:#313131;}.go1725278324{background-color:#43a047;}.go3651055292{background-color:#d32f2f;}.go4215275574{background-color:#ff9800;}.go1930647212{background-color:#2196f3;}.go946087465{display:flex;align-items:center;padding:8px 0;}.go703367398{display:flex;align-items:center;margin-left:auto;padding-left:16px;margin-right:-8px;}.go3963613292{width:100%;position:relative;transform:translateX(0);top:0;right:0;bottom:0;left:0;min-width:288px;}.go1141946668{box-sizing:border-box;display:flex;max-height:100%;position:fixed;z-index:1400;height:auto;width:auto;transition:top 300ms ease 0ms,right 300ms ease 0ms,bottom 300ms ease 0ms,left 300ms ease 0ms,max-width 300ms ease 0ms;pointer-events:none;max-width:calc(100% - 40px);}.go1141946668 .notistack-CollapseWrapper{padding:6px 0px;transition:padding 300ms ease 0ms;}@media (max-width:599.95px){.go1141946668{width:100%;max-width:calc(100% - 32px);}}.go3868796639 .notistack-CollapseWrapper{padding:2px 0px;}.go3118922589{top:14px;flex-direction:column;}.go1453831412{bottom:14px;flex-direction:column-reverse;}.go4027089540{left:20px;}@media (min-width:600px){.go4027089540{align-items:flex-start;}}@media (max-width:599.95px){.go4027089540{left:16px;}}.go2989568495{right:20px;}@media (min-width:600px){.go2989568495{align-items:flex-end;}}@media (max-width:599.95px){.go2989568495{right:16px;}}.go4034260886{left:50%;transform:translateX(-50%);}@media (min-width:600px){.go4034260886{align-items:center;}}</style><style type="text/css">.rfm-marquee-container {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: var(--width);
+  transform: var(--transform);
+}
+.rfm-marquee-container:hover div {
+  animation-play-state: var(--pause-on-hover);
+}
+.rfm-marquee-container:active div {
+  animation-play-state: var(--pause-on-click);
+}
+
+.rfm-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.rfm-overlay::before, .rfm-overlay::after {
+  background: linear-gradient(to right, var(--gradient-color), rgba(255, 255, 255, 0));
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: var(--gradient-width);
+  z-index: 2;
+  pointer-events: none;
+  touch-action: none;
+}
+.rfm-overlay::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.rfm-overlay::before {
+  left: 0;
+  top: 0;
+}
+
+.rfm-marquee {
+  flex: 0 0 auto;
+  min-width: var(--min-width);
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: scroll var(--duration) linear var(--delay) var(--iteration-count);
+  animation-play-state: var(--play);
+  animation-delay: var(--delay);
+  animation-direction: var(--direction);
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.rfm-initial-child-container {
+  flex: 0 0 auto;
+  display: flex;
+  min-width: auto;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rfm-child {
+  transform: var(--transform);
+}</style><style class="gtranslate_css">div.skiptranslate,#google_translate_element2{display:none!important}body{top:0!important}font font{background-color:transparent!important;box-shadow:none!important;position:initial!important}.gt_container--hich1m .gt_switcher{font-family:Arial;font-size:12pt;text-align:left;cursor:pointer;overflow:hidden;width:173px;line-height:0}.gt_container--hich1m .gt_switcher a{text-decoration:none;display:block;font-size:12pt;box-sizing:content-box}.gt_container--hich1m .gt_switcher a img{width:24px;height:24px;vertical-align:middle;display:inline;border:0;padding:0;margin:0;opacity:0.8}.gt_container--hich1m .gt_switcher a:hover img{opacity:1}.gt_container--hich1m .gt_switcher .gt_selected{background:#303030 linear-gradient(180deg, #474747 0%, #303030 70%);position:relative;z-index:9999}.gt_container--hich1m .gt_switcher .gt_selected a{border:1px solid #161616;color:#f7f7f7;padding:3px 5px;width:161px}.gt_container--hich1m .gt_switcher .gt_selected a:after{height:24px;display:inline-block;position:absolute;right:10px;width:15px;background-position:50%;background-size:11px;background-image:url("17394bb82eb951e24679e0748dc4254d2d3996ff.svg");background-repeat:no-repeat;content:""!important;transition:all .2s}.gt_container--hich1m .gt_switcher .gt_selected a.open:after{transform:rotate(-180deg)}.gt_container--hich1m .gt_switcher .gt_selected a:hover{background:#3a3a3a}.gt_container--hich1m .gt_switcher .gt_current{display:none}.gt_container--hich1m .gt_switcher .gt_option{position:relative;z-index:9998;border-left:1px solid #161616;border-right:1px solid #161616;border-top:1px solid #161616;background-color:#474747;display:none;width:171px;max-height:198px;height:0;box-sizing:content-box;overflow-y:auto;overflow-x:hidden;transition:height 0.5s ease-in-out}.gt_container--hich1m .gt_switcher .gt_option a{color:#eaeaea;padding:3px 5px}.gt_container--hich1m .gt_switcher .gt_option a:hover{background:#748393}.gt_container--hich1m .gt_switcher .gt_option::-webkit-scrollbar-track{background-color:#f5f5f5}.gt_container--hich1m .gt_switcher .gt_option::-webkit-scrollbar{width:5px}.gt_container--hich1m .gt_switcher .gt_option::-webkit-scrollbar-thumb{background-color:#888}</style><style data-emotion="css-global" data-s="">@keyframes mui-auto-fill {
+0% { display: block; }
+}
+@keyframes mui-auto-fill {
+0% { display: block; }
+}
+@keyframes mui-auto-fill-cancel {
+0% { display: block; }
+}
+@keyframes mui-auto-fill-cancel {
+0% { display: block; }
+}</style><style data-emotion="css-global" data-s="">@keyframes mui-auto-fill {
+0% { display: block; }
+}
+@keyframes mui-auto-fill {
+0% { display: block; }
+}
+@keyframes mui-auto-fill-cancel {
+0% { display: block; }
+}
+@keyframes mui-auto-fill-cancel {
+0% { display: block; }
+}</style><style data-emotion="css" data-s="">@media print {
+  .css-g23iw5 { position: absolute !important; }
+}
+.css-g23iw5 .MuiDialog-root { z-index: 1301 !important; }
+.css-g23iw5.MuiDialog-container { overflow-y: hidden !important; }
+.css-g23iw5 .MuiDialog-paperScrollPaper { background-color: black; height: auto; box-shadow: black 0px 0px 8px 1px; border-radius: 10px; }
+.css-g23iw5 .dialoge__content__section { background: black !important; border-radius: 10px; border: 1px solid transparent; }
+.css-g23iw5 .MuiDialogContent-root { padding-top: 20px; padding-bottom: 20px; }
+.css-10kj5gz { background-image: url("herobg-C9P7QZ-w.png"); background-size: cover; background-position: center center; }
+@media (min-width: 0px) {
+  .css-10kj5gz { height: 100%; }
+}
+@media (min-width: 900px) {
+  .css-10kj5gz { height: 60rem; }
+}
+.css-7j4cge { width: 100%; padding-top: 8px; padding-bottom: 8px; background: transparent; }
+.css-1cmizrj { width: 100%; margin-left: auto; box-sizing: border-box; margin-right: auto; padding-left: 16px; padding-right: 16px; }
+@media (min-width: 600px) {
+  .css-1cmizrj { padding-left: 24px; padding-right: 24px; }
+}
+@media (min-width: 1536px) {
+  .css-1cmizrj { max-width: 1536px; }
+}
+.css-1j1epg9 { display: flex; -moz-box-pack: justify; justify-content: space-between; -moz-box-align: center; align-items: center; padding-left: 32px; padding-right: 32px; }
+.css-1hjq20a { width: 320px; }
+.css-69i1ev { display: flex; -moz-box-pack: justify; justify-content: space-between; -moz-box-align: center; align-items: center; }
+.css-n87hbe { padding-bottom: 40px; padding-left: 32px; padding-right: 32px; }
+.css-omyjh9 { --Grid-columns: 12; --Grid-columnSpacing: 40px; --Grid-rowSpacing: 40px; flex-flow: wrap; min-width: 0px; box-sizing: border-box; display: flex; gap: var(--Grid-rowSpacing) var(--Grid-columnSpacing); margin-top: 80px; }
+.css-omyjh9 > * { --Grid-parent-columns: 12; }
+.css-omyjh9 > * { --Grid-parent-columnSpacing: 40px; }
+.css-omyjh9 > * { --Grid-parent-rowSpacing: 40px; }
+.css-tnatjl { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 12 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 12) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); min-width: 0px; box-sizing: border-box; }
+@media (min-width: 900px) {
+  .css-tnatjl { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 6 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 6) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); }
+}
+.css-1of289a { margin: 0px; letter-spacing: 0.00938em; color: rgb(0, 0, 0); font-size: 75px; line-height: 75px; font-weight: 900; font-family: Sour Gummy; text-transform: uppercase; text-align: left; }
+.css-wnze4n { margin: 32px 0px; letter-spacing: 0.00938em; color: rgb(0, 0, 0); font-size: 28px; line-height: 30px; font-weight: 900; font-family: Sour Gummy; text-align: left; }
+.css-1ao1ew5 { display: flex; -moz-box-pack: start; justify-content: flex-start; gap: 24px; margin-bottom: 24px; }
+.css-1mkgcuv { user-select: none; width: 1em; height: 1em; display: inline-block; flex-shrink: 0; transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1); fill: currentcolor; color: rgb(0, 0, 0); font-size: 45px; }
+.css-191h2pl { user-select: none; width: 1em; height: 1em; display: inline-block; flex-shrink: 0; transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1); fill: currentcolor; color: rgb(0, 0, 0); font-size: 40px; }
+.css-f1jt2u { display: flex; -moz-box-pack: start; justify-content: flex-start; gap: 24px; }
+.css-wxsegi { line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 24px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(0, 0, 0); background: rgb(248, 113, 19); box-shadow: rgba(0, 0, 0, 0.25) 0px -4px 0px inset, rgb(0, 0, 0) 0px 3px 0px; height: 58px; font-size: 22px; font-family: Sour Gummy; font-weight: 700; border-radius: 10px; width: fit-content; border: 2px solid rgb(0, 0, 0); }
+.css-wxsegi:hover { text-decoration: none; }
+.css-wxsegi.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-wxsegi:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-wxsegi.Mui-disabled { color: rgb(151, 158, 167); }
+.css-wxsegi:hover { background: rgb(0, 108, 40); color: rgb(255, 255, 255); }
+.css-ixqmew { display: inline-flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; position: relative; box-sizing: border-box; outline: 0px; margin: 0px; cursor: pointer; user-select: none; vertical-align: middle; appearance: none; text-decoration: none; line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 24px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(0, 0, 0); background: rgb(248, 113, 19); box-shadow: rgba(0, 0, 0, 0.25) 0px -4px 0px inset, rgb(0, 0, 0) 0px 3px 0px; height: 58px; font-size: 22px; font-family: Sour Gummy; font-weight: 700; border-radius: 10px; width: fit-content; border: 2px solid rgb(0, 0, 0); }
+.css-ixqmew.Mui-disabled { pointer-events: none; cursor: default; }
+@media print {
+  .css-ixqmew { print-color-adjust: exact; }
+}
+.css-ixqmew:hover { text-decoration: none; }
+.css-ixqmew.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-ixqmew:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-ixqmew.Mui-disabled { color: rgb(151, 158, 167); }
+.css-ixqmew:hover { background: rgb(0, 108, 40); color: rgb(255, 255, 255); }
+.css-axreq4 { line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 24px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(0, 0, 0); background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.25) 0px -4px 0px inset, rgb(0, 0, 0) 0px 3px 0px; height: 58px; font-size: 22px; font-weight: 700; font-family: Sour Gummy; border-radius: 10px; width: fit-content; border: 2px solid rgb(0, 0, 0); }
+.css-axreq4:hover { text-decoration: none; }
+.css-axreq4.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-axreq4:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-axreq4.Mui-disabled { color: rgb(151, 158, 167); }
+.css-axreq4:hover { background: rgb(0, 108, 40); color: rgb(255, 255, 255); }
+.css-96nbn2 { display: inline-flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; position: relative; box-sizing: border-box; outline: 0px; margin: 0px; cursor: pointer; user-select: none; vertical-align: middle; appearance: none; text-decoration: none; line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 24px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(0, 0, 0); background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.25) 0px -4px 0px inset, rgb(0, 0, 0) 0px 3px 0px; height: 58px; font-size: 22px; font-weight: 700; font-family: Sour Gummy; border-radius: 10px; width: fit-content; border: 2px solid rgb(0, 0, 0); }
+.css-96nbn2.Mui-disabled { pointer-events: none; cursor: default; }
+@media print {
+  .css-96nbn2 { print-color-adjust: exact; }
+}
+.css-96nbn2:hover { text-decoration: none; }
+.css-96nbn2.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-96nbn2:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-96nbn2.Mui-disabled { color: rgb(151, 158, 167); }
+.css-96nbn2:hover { background: rgb(0, 108, 40); color: rgb(255, 255, 255); }
+.css-6a9pc { position: fixed; display: flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; inset: 0px; background-color: rgba(0, 0, 0, 0.5); z-index: 220000000; }
+.css-1t729zf { width: 100%; height: 100%; background: linear-gradient(rgba(5, 4, 1, 0.6), rgba(5, 4, 1, 0.7)); backdrop-filter: blur(20px); display: flex; -moz-box-pack: center; justify-content: center; -moz-box-align: center; align-items: center; }
+@media (min-width: 0px) {
+  .css-1imwoz3 { width: 160px; }
+}
+@media (min-width: 900px) {
+  .css-1imwoz3 { width: 180px; }
+}
+.css-1tbtiay { border: 2px solid rgb(0, 0, 0); border-radius: 20px; background-color: rgb(255, 255, 255); width: 80%; margin: auto; box-shadow: rgb(0, 0, 0) 2px 5px; }
+.css-1fs1s36 { border: 2px solid rgb(0, 0, 0); border-radius: 20px; background-color: rgb(255, 255, 255); width: 80%; margin: auto; box-shadow: rgb(0, 0, 0) 2px 5px; }
+.css-19kzrtu { padding: 24px; }
+.css-10lro { display: flex; -moz-box-pack: center; justify-content: center; margin-top: -16px; }
+.css-6gs9hh { width: 70%; }
+.css-q6qdxr { margin: 0px; letter-spacing: 0.00938em; line-height: 24px; font-size: 24px; font-family: Sour Gummy; font-weight: 900; }
+.css-7hy5jr { background-color: rgb(244, 235, 130); border: 1px solid rgb(0, 0, 0); border-radius: 12px; padding: 5px 12px; width: 100px; display: flex; -moz-box-pack: center; justify-content: center; height: 35px; -moz-box-align: center; align-items: center; font-weight: 900; font-size: 24px; box-shadow: rgb(0, 108, 40) 2px 3px; font-family: Sour Gummy; }
+.css-kl1xo3 { display: flex; -moz-box-pack: center; justify-content: center; margin-top: 16px; }
+.css-rk19nk { margin-bottom: 8px; background-color: rgb(255, 204, 188); border: 2px solid rgb(0, 0, 0); border-radius: 12px; padding: 5px 20px; height: 35px; transform: rotate(-5deg); box-shadow: rgb(0, 0, 0) 2px 3px; display: flex; -moz-box-align: center; align-items: center; font-family: Sour Gummy; font-size: 20px; font-weight: 900; }
+.css-1ebprri { margin-top: 16px; margin-bottom: 16px; }
+.css-1uusp5f { margin: 0px; letter-spacing: 0.00938em; text-align: center; font-size: 22px; line-height: 22px; font-family: Sour Gummy; font-weight: 900; }
+.css-1ff5tpb { margin: 8px 0px 0px; letter-spacing: 0.00938em; text-align: center; font-size: 22px; line-height: 22px; font-family: Sour Gummy; font-weight: 900; }
+.css-xxi500 { display: flex; flex-direction: column; margin-top: 4px; width: 100%; background: rgb(255, 255, 255); border-radius: 20px; overflow: hidden; border: 1px solid rgb(0, 0, 0); }
+@media (min-width: 0px) {
+  .css-xxi500 { height: 20px; }
+}
+@media (min-width: 900px) {
+  .css-xxi500 { height: 20px; }
+}
+.css-1a3xayf { display: flex; flex-direction: column; height: 100%; -moz-box-align: start; align-items: start; -moz-box-pack: center; justify-content: center; position: relative; }
+.css-2xsevq { position: absolute; left: 0px; top: 0px; bottom: 0px; width: 0%; background-color: rgb(244, 235, 130); border-radius: 26px; background-size: 100% 100%; background-repeat: no-repeat; z-index: 0; }
+.css-2xsevq::after { content: ""; display: block; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.125) 25%, rgba(0, 0, 0, 0.125) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.125) 75%, rgba(0, 0, 0, 0.125)); background-size: 20px 20px; animation: 2s linear infinite animation-q18qtb; }
+@keyframes animation-q18qtb {
+0% { background-position: 0px 0px; }
+100% { background-position: 40px 0px; }
+}
+@keyframes animation-q18qtb {
+0% { background-position: 0px 0px; }
+100% { background-position: 40px 0px; }
+}
+.css-dmbwxc { position: absolute; top: 1px; left: 45%; color: rgb(0, 0, 0); font-size: 16px; font-weight: 700; }
+.css-1243ecu { border-radius: 4px; width: 100%; margin-top: 24px; display: flex; gap: 16px; }
+.css-1243ecu .MuiToggleButtonGroup-grouped.Mui-selected + .MuiToggleButtonGroup-grouped.Mui-selected { border-left: 0px; margin-left: 0px; }
+.css-1243ecu .MuiToggleButtonGroup-firstButton, .css-1243ecu .MuiToggleButtonGroup-middleButton { border-top-right-radius: 0px; border-bottom-right-radius: 0px; }
+.css-1243ecu .MuiToggleButtonGroup-lastButton, .css-1243ecu .MuiToggleButtonGroup-middleButton { margin-left: -1px; border-left: 1px solid transparent; border-top-left-radius: 0px; border-bottom-left-radius: 0px; }
+.css-1243ecu .MuiToggleButtonGroup-lastButton.Mui-disabled, .css-1243ecu .MuiToggleButtonGroup-middleButton.Mui-disabled { border-left: 1px solid transparent; }
+.css-7vjk4u { flex: 1 1 0%; font-weight: bold; border-radius: 8px !important; margin: 4px; padding: 10px 0px; background-color: rgb(238, 240, 244); border: medium; color: rgb(0, 0, 0); }
+.css-7vjk4u.Mui-selected { box-shadow: rgb(0, 0, 0) 1px 3px; border: 1px solid rgb(0, 0, 0) !important; }
+.css-7vjk4u:hover { background-color: rgb(238, 240, 244); }
+.css-1bxeqzc { font-family: "Roboto", "Helvetica", "Arial", sans-serif; font-size: 0.875rem; line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; width: 100%; flex: 1 1 0%; font-weight: bold; border-radius: 8px !important; margin: 4px; padding: 10px 0px; background-color: rgb(238, 240, 244); border: medium; color: rgb(0, 0, 0); }
+.css-1bxeqzc.Mui-disabled { color: rgba(0, 0, 0, 0.26); border: 1px solid rgba(0, 0, 0, 0.12); }
+.css-1bxeqzc:hover { text-decoration: none; background-color: rgba(0, 0, 0, 0.04); }
+@media (hover: none) {
+  .css-1bxeqzc:hover { background-color: transparent; }
+}
+.css-1bxeqzc.Mui-selected { color: rgba(0, 0, 0, 0.87); background-color: rgba(0, 0, 0, 0.08); }
+.css-1bxeqzc.Mui-selected:hover { background-color: rgba(0, 0, 0, 0.12); }
+@media (hover: none) {
+  .css-1bxeqzc.Mui-selected:hover { background-color: rgba(0, 0, 0, 0.08); }
+}
+.css-1bxeqzc.Mui-selected { box-shadow: rgb(0, 0, 0) 1px 3px; border: 1px solid rgb(0, 0, 0) !important; }
+.css-1bxeqzc:hover { background-color: rgb(238, 240, 244); }
+.css-1tn8gcq { display: inline-flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; position: relative; box-sizing: border-box; outline: 0px; cursor: pointer; user-select: none; vertical-align: middle; appearance: none; text-decoration: none; font-family: "Roboto", "Helvetica", "Arial", sans-serif; font-size: 0.875rem; line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; width: 100%; flex: 1 1 0%; font-weight: bold; border-radius: 8px !important; margin: 4px; padding: 10px 0px; background-color: rgb(238, 240, 244); border: medium; color: rgb(0, 0, 0); }
+.css-1tn8gcq.Mui-disabled { pointer-events: none; cursor: default; }
+@media print {
+  .css-1tn8gcq { print-color-adjust: exact; }
+}
+.css-1tn8gcq.Mui-disabled { color: rgba(0, 0, 0, 0.26); border: 1px solid rgba(0, 0, 0, 0.12); }
+.css-1tn8gcq:hover { text-decoration: none; background-color: rgba(0, 0, 0, 0.04); }
+@media (hover: none) {
+  .css-1tn8gcq:hover { background-color: transparent; }
+}
+.css-1tn8gcq.Mui-selected { color: rgba(0, 0, 0, 0.87); background-color: rgba(0, 0, 0, 0.08); }
+.css-1tn8gcq.Mui-selected:hover { background-color: rgba(0, 0, 0, 0.12); }
+@media (hover: none) {
+  .css-1tn8gcq.Mui-selected:hover { background-color: rgba(0, 0, 0, 0.08); }
+}
+.css-1tn8gcq.Mui-selected { box-shadow: rgb(0, 0, 0) 1px 3px; border: 1px solid rgb(0, 0, 0) !important; }
+.css-1tn8gcq:hover { background-color: rgb(238, 240, 244); }
+.css-105fz4b { margin-right: 8px; width: 25px; }
+.css-i4693q { user-select: none; width: 1em; height: 1em; display: inline-block; flex-shrink: 0; transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1); fill: currentcolor; font-size: 1.5rem; margin-right: 8px; }
+.css-1bxn3du { display: flex; flex-direction: row; gap: 16px; margin-top: 24px; }
+.css-1vbfw84 { display: inline-flex; flex-direction: column; position: relative; min-width: 0px; padding: 0px; margin: 0px; border: 0px; vertical-align: top; width: 100%; }
+.css-1kmkvia { font-family: "Roboto", "Helvetica", "Arial", sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.4375em; letter-spacing: 0.00938em; color: rgba(0, 0, 0, 0.87); box-sizing: border-box; cursor: text; display: inline-flex; -moz-box-align: center; align-items: center; width: 100%; position: relative; border-radius: 4px; padding-right: 14px; }
+.css-1kmkvia.Mui-disabled { color: rgba(0, 0, 0, 0.38); cursor: default; }
+.css-1kmkvia:hover .MuiOutlinedInput-notchedOutline { border-color: rgba(0, 0, 0, 0.87); }
+@media (hover: none) {
+  .css-1kmkvia:hover .MuiOutlinedInput-notchedOutline { border-color: rgba(0, 0, 0, 0.23); }
+}
+.css-1kmkvia.Mui-focused .MuiOutlinedInput-notchedOutline { border-width: 2px; }
+.css-1kmkvia.Mui-focused .MuiOutlinedInput-notchedOutline { border-color: rgb(25, 118, 210); }
+.css-1kmkvia.Mui-error .MuiOutlinedInput-notchedOutline { border-color: rgb(211, 47, 47); }
+.css-1kmkvia.Mui-disabled .MuiOutlinedInput-notchedOutline { border-color: rgba(0, 0, 0, 0.26); }
+.css-qwdxx6 { font: inherit; letter-spacing: inherit; color: currentcolor; border: 0px; box-sizing: content-box; background: none; height: 1.4375em; margin: 0px; display: block; min-width: 0px; width: 100%; animation-name: mui-auto-fill-cancel; animation-duration: 10ms; padding: 16.5px 0px 16.5px 14px; }
+.css-qwdxx6::-webkit-input-placeholder { color: currentcolor; opacity: 0.42; transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+.css-qwdxx6::placeholder { color: currentcolor; opacity: 0.42; transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1); }
+.css-qwdxx6:focus { outline: 0px; }
+.css-qwdxx6:invalid { box-shadow: none; }
+.css-qwdxx6::-webkit-search-decoration { appearance: none; }
+label[data-shrink="false"] + .MuiInputBase-formControl .css-qwdxx6::-webkit-input-placeholder { opacity: 0 !important; }
+label[data-shrink="false"] + .MuiInputBase-formControl .css-qwdxx6::placeholder { opacity: 0 !important; }
+label[data-shrink="false"] + .MuiInputBase-formControl .css-qwdxx6:focus::-webkit-input-placeholder { opacity: 0.42; }
+label[data-shrink="false"] + .MuiInputBase-formControl .css-qwdxx6:focus::placeholder { opacity: 0.42; }
+.css-qwdxx6.Mui-disabled { opacity: 1; -webkit-text-fill-color: rgba(0, 0, 0, 0.38); }
+.css-qwdxx6:autofill { animation-duration: 5000s; animation-name: mui-auto-fill; }
+.css-qwdxx6:autofill { border-radius: inherit; }
+.css-1dnaxzp { display: flex; -moz-box-align: center; align-items: center; gap: 5px; }
+.css-er4nq9 { font-family: "Roboto", "Helvetica", "Arial", sans-serif; font-weight: 500; font-size: 0.875rem; line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; min-width: 64px; border: 0px; border-radius: 4px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 8px; color: var(--variant-textColor); background-color: var(--variant-textBg); --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; }
+.css-er4nq9:hover { text-decoration: none; }
+.css-er4nq9.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-er4nq9:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-iyey26 { display: inline-flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; position: relative; box-sizing: border-box; outline: 0px; margin: 0px; cursor: pointer; user-select: none; vertical-align: middle; appearance: none; text-decoration: none; font-family: "Roboto", "Helvetica", "Arial", sans-serif; font-weight: 500; font-size: 0.875rem; line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; min-width: 64px; border: 0px; border-radius: 4px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 8px; color: var(--variant-textColor); background-color: var(--variant-textBg); --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; }
+.css-iyey26.Mui-disabled { pointer-events: none; cursor: default; }
+@media print {
+  .css-iyey26 { print-color-adjust: exact; }
+}
+.css-iyey26:hover { text-decoration: none; }
+.css-iyey26.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-iyey26:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-12mgemd { width: 25px; }
+.css-h2v8xi { border-color: rgba(0, 0, 0, 0.23); }
+.css-5v2ak0 { text-align: left; position: absolute; inset: -5px 0px 0px; margin: 0px; padding: 0px 8px; pointer-events: none; border-radius: inherit; border-style: solid; border-width: 1px; overflow: hidden; min-width: 0%; border-color: rgba(0, 0, 0, 0.23); }
+.css-w4cd9x { float: unset; width: auto; overflow: hidden; padding: 0px; line-height: 11px; transition: width 150ms cubic-bezier(0, 0, 0.2, 1); }
+.css-fa2e4p { margin-top: 0px; }
+.css-nsz4p1 { display: inline-flex; flex-direction: column; position: relative; min-width: 0px; padding: 0px; margin: 0px; border: 0px; vertical-align: top; width: 100%; }
+.css-34k09d { width: 30px; }
+.css-fgc6m5 { line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 8px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(0, 0, 0); background: rgb(248, 113, 19); box-shadow: rgba(0, 0, 0, 0.25) 0px -4px 0px inset, rgb(0, 0, 0) 0px 3px 0px; height: 58px; font-size: 22px; font-family: Sour Gummy; font-weight: 700; border-radius: 10px; width: 100%; border: 2px solid rgb(0, 0, 0); margin-top: 24px; }
+.css-fgc6m5:hover { text-decoration: none; }
+.css-fgc6m5.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-fgc6m5:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-fgc6m5.Mui-disabled { color: rgb(151, 158, 167); }
+.css-fgc6m5:hover { background: rgb(0, 108, 40); color: rgb(255, 255, 255); }
+.css-1gs3kn1 { display: inline-flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; position: relative; box-sizing: border-box; outline: 0px; margin: 24px 0px 0px; cursor: pointer; user-select: none; vertical-align: middle; appearance: none; text-decoration: none; line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 8px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(0, 0, 0); background: rgb(248, 113, 19); box-shadow: rgba(0, 0, 0, 0.25) 0px -4px 0px inset, rgb(0, 0, 0) 0px 3px 0px; height: 58px; font-size: 22px; font-family: Sour Gummy; font-weight: 700; border-radius: 10px; width: 100%; border: 2px solid rgb(0, 0, 0); }
+.css-1gs3kn1.Mui-disabled { pointer-events: none; cursor: default; }
+@media print {
+  .css-1gs3kn1 { print-color-adjust: exact; }
+}
+.css-1gs3kn1:hover { text-decoration: none; }
+.css-1gs3kn1.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-1gs3kn1:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-1gs3kn1.Mui-disabled { color: rgb(151, 158, 167); }
+.css-1gs3kn1:hover { background: rgb(0, 108, 40); color: rgb(255, 255, 255); }
+.css-angmwx { display: flex; -moz-box-pack: justify; justify-content: space-between; margin-top: 16px; gap: 16px; }
+.css-dy0adv { line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 8px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(0, 0, 0); background: rgb(171, 231, 192); height: 50px; font-size: 18px; font-family: Poppins; font-weight: 700; border-radius: 10px; width: 100%; border: 2px solid rgb(0, 0, 0); }
+.css-dy0adv:hover { text-decoration: none; }
+.css-dy0adv.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-dy0adv:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-1s5r0i6 { display: inline-flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; position: relative; box-sizing: border-box; outline: 0px; margin: 0px; cursor: pointer; user-select: none; vertical-align: middle; appearance: none; text-decoration: none; line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 8px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(0, 0, 0); background: rgb(171, 231, 192); height: 50px; font-size: 18px; font-family: Poppins; font-weight: 700; border-radius: 10px; width: 100%; border: 2px solid rgb(0, 0, 0); }
+.css-1s5r0i6.Mui-disabled { pointer-events: none; cursor: default; }
+@media print {
+  .css-1s5r0i6 { print-color-adjust: exact; }
+}
+.css-1s5r0i6:hover { text-decoration: none; }
+.css-1s5r0i6.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-1s5r0i6:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-lo5s02 { line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 8px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(0, 0, 0); background: rgb(246, 158, 150); height: 50px; font-size: 18px; font-family: Poppins; font-weight: 700; border-radius: 10px; width: 100%; border: 2px solid rgb(0, 0, 0); }
+.css-lo5s02:hover { text-decoration: none; }
+.css-lo5s02.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-lo5s02:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-sfbz5p { display: inline-flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; position: relative; box-sizing: border-box; outline: 0px; margin: 0px; cursor: pointer; user-select: none; vertical-align: middle; appearance: none; text-decoration: none; line-height: 1.75; letter-spacing: 0.02857em; text-transform: uppercase; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 8px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(0, 0, 0); background: rgb(246, 158, 150); height: 50px; font-size: 18px; font-family: Poppins; font-weight: 700; border-radius: 10px; width: 100%; border: 2px solid rgb(0, 0, 0); }
+.css-sfbz5p.Mui-disabled { pointer-events: none; cursor: default; }
+@media print {
+  .css-sfbz5p { print-color-adjust: exact; }
+}
+.css-sfbz5p:hover { text-decoration: none; }
+.css-sfbz5p.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-sfbz5p:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-19cg2tt { margin: 40px 0px 0px; line-height: 1.5; letter-spacing: 0.00938em; color: rgb(0, 0, 0); font-family: Sour Gummy; font-weight: 900; font-size: 32px; text-align: center; text-transform: uppercase; }
+.css-yx9knn { padding-top: 24px; padding-bottom: 24px; background: rgb(0, 0, 0); }
+.css-4n2epj { background-image: url("aboutbg-CtVfcIDb.png"); background-size: cover; background-position: center center; height: 65rem; padding-bottom: 40px; position: relative; z-index: 1; }
+.css-pmvd2z { width: 400px; position: absolute; z-index: 0; bottom: 2%; left: 5%; }
+.css-1px2ubo { display: flex; -moz-box-pack: end; justify-content: flex-end; padding-left: 32px; padding-right: 32px; position: relative; z-index: 1; }
+.css-ml5pey { width: 80%; margin-top: 120px; background: url("aboutbd-BtXfsPQK.png") 100% 100% / 100% 100%; height: 57rem; border-radius: 0px; }
+.css-16l69yx { margin: 0px; letter-spacing: 0.00938em; padding-left: 80px; padding-top: 64px; color: rgb(0, 0, 0); font-size: 120px; line-height: 120px; font-weight: 900; font-family: Sour Gummy; text-transform: uppercase; text-align: left; }
+.css-1456kg2 { margin: 32px 0px 0px; letter-spacing: 0.00938em; color: rgb(0, 0, 0); font-size: 28px; line-height: 36px; font-weight: 900; font-family: Sour Gummy; text-align: left; padding-left: 80px; padding-right: 80px; }
+.css-1u73bko { margin: 16px 0px; letter-spacing: 0.00938em; color: rgb(0, 0, 0); font-size: 28px; line-height: 36px; font-weight: 900; font-family: Sour Gummy; text-align: left; padding-left: 80px; padding-right: 80px; }
+.css-7972wo { background-image: url("buybg-Ct3FzdEw.png"); background-size: 100% 100%; background-position: 100% 100%; height: 90rem; padding-bottom: 40px; }
+.css-1wzifj2 { padding-left: 32px; padding-right: 32px; }
+.css-jfkenn { margin: 0px; letter-spacing: 0.00938em; padding-top: 80px; color: rgb(0, 0, 0); font-size: 120px; line-height: 120px; font-weight: 900; font-family: Sour Gummy; text-transform: uppercase; text-align: center; }
+.css-1w3ban1 { --Grid-columns: 12; --Grid-columnSpacing: 40px; --Grid-rowSpacing: 40px; flex-flow: wrap; min-width: 0px; box-sizing: border-box; display: flex; gap: var(--Grid-rowSpacing) var(--Grid-columnSpacing); margin-top: 40px; }
+.css-1w3ban1 > * { --Grid-parent-columns: 12; }
+.css-1w3ban1 > * { --Grid-parent-columnSpacing: 40px; }
+.css-1w3ban1 > * { --Grid-parent-rowSpacing: 40px; }
+.css-20tnkx { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 12 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 12) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); min-width: 0px; box-sizing: border-box; }
+@media (min-width: 900px) {
+  .css-20tnkx { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 4 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 4) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); }
+}
+.css-11c7gu6 { margin-top: 0px; background: rgb(251, 197, 160); width: 100%; border-radius: 16px; border: 2px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 3px 5px; }
+.css-8atqhb { width: 100%; }
+.css-1k2ona0 { margin: 16px 0px; line-height: 1.5; letter-spacing: 0.00938em; color: rgb(0, 0, 0); font-size: 32px; font-weight: 900; font-family: Sour Gummy; }
+.css-pa6he2 { margin: 0px; font-weight: 400; line-height: 1.5; letter-spacing: 0.00938em; color: rgb(82, 82, 82); font-size: 18px; font-family: Poppins; }
+.css-szcohq { margin-top: 40px; background: rgb(244, 235, 130); width: 100%; border-radius: 16px; border: 2px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 3px 5px; }
+.css-1hileui { margin-top: 0px; background: rgb(196, 153, 225); width: 100%; border-radius: 16px; border: 2px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 3px 5px; }
+.css-7822g1 { width: 90%; }
+.css-izr1hw { position: relative; overflow: hidden; min-height: 100%; background-color: rgb(0, 108, 40); }
+.css-6n7wrv { position: absolute; top: 0px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-1syrnar { display: inline-block; animation: 300s linear infinite animation-ariwm7; }
+@keyframes animation-ariwm7 {
+0% { transform: translateX(-100%); }
+100% { transform: translateX(100%); }
+}
+@keyframes animation-ariwm7 {
+0% { transform: translateX(-100%); }
+100% { transform: translateX(100%); }
+}
+.css-15g9n5l { margin: 0px 16px; line-height: 1.5; letter-spacing: 0.00938em; color: rgb(242, 197, 59); display: inline; font-size: 6rem; font-family: Sour Gummy; font-weight: 900; }
+.css-18hxop { position: absolute; top: 70px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-58kq3s { display: inline-block; animation: 300s linear infinite animation-pk6i0b; }
+@keyframes animation-pk6i0b {
+0% { transform: translateX(100%); }
+100% { transform: translateX(-100%); }
+}
+@keyframes animation-pk6i0b {
+0% { transform: translateX(100%); }
+100% { transform: translateX(-100%); }
+}
+.css-fp6l5y { position: absolute; top: 140px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-1p1mvl4 { position: absolute; top: 210px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-1cyadc3 { position: absolute; top: 280px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-1fw97m5 { position: absolute; top: 350px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-6au8dn { position: absolute; top: 420px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-1kx6wuv { position: absolute; top: 490px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-4tcvxq { position: absolute; top: 560px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-17eacyn { position: absolute; top: 630px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-s5si11 { position: absolute; top: 700px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-2qkd1i { position: absolute; top: 770px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-1bsypnq { position: absolute; top: 840px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-13ur83k { position: absolute; top: 910px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-1va11hr { position: absolute; top: 980px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-j0v2gb { position: absolute; top: 1050px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-1s9f8n0 { position: absolute; top: 1120px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-1x1uh0l { position: absolute; top: 1190px; width: 200%; overflow: hidden; white-space: nowrap; z-index: 0; }
+.css-1dvfphf { position: relative; z-index: 1; display: flex; flex-direction: column; -moz-box-align: center; align-items: center; gap: 32px; padding-top: 64px; padding-bottom: 64px; }
+.css-bbeh7f { overflow: hidden; width: 90%; border-radius: 16px; border: 2px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 3px 5px; padding: 32px; background-color: rgb(255, 241, 118); }
+.css-1c1rf9m { color: rgba(0, 0, 0, 0.87); transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1); background-image: var(--Paper-overlay); overflow: hidden; width: 90%; border-radius: 16px; border: 2px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 3px 5px; padding: 32px; background-color: rgb(255, 241, 118); }
+.css-177xvbk { --Grid-columns: 12; --Grid-columnSpacing: 24px; --Grid-rowSpacing: 24px; flex-flow: wrap; min-width: 0px; box-sizing: border-box; display: flex; gap: var(--Grid-rowSpacing) var(--Grid-columnSpacing); }
+.css-177xvbk > * { --Grid-parent-columns: 12; }
+.css-177xvbk > * { --Grid-parent-columnSpacing: 24px; }
+.css-177xvbk > * { --Grid-parent-rowSpacing: 24px; }
+.css-1xfo46r { margin: 16px 0px; font-weight: 400; letter-spacing: 0.00938em; color: rgb(82, 82, 82); font-size: 18px; font-family: Poppins; line-height: 50px; }
+.css-2z7te8 { width: 100%; height: 400px; }
+.css-ermldx { overflow: hidden; width: 90%; border-radius: 16px; border: 2px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 3px 5px; padding: 32px; background-color: rgb(255, 204, 188); }
+.css-1v1uyfc { color: rgba(0, 0, 0, 0.87); transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1); background-image: var(--Paper-overlay); overflow: hidden; width: 90%; border-radius: 16px; border: 2px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 3px 5px; padding: 32px; background-color: rgb(255, 204, 188); }
+.css-1nbeol1 { overflow: hidden; width: 90%; border-radius: 16px; border: 2px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 3px 5px; padding: 32px; background-color: rgb(206, 147, 216); }
+.css-1rlud2z { color: rgba(0, 0, 0, 0.87); transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1); background-image: var(--Paper-overlay); overflow: hidden; width: 90%; border-radius: 16px; border: 2px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 3px 5px; padding: 32px; background-color: rgb(206, 147, 216); }
+.css-zgmktt { background-image: url("tokenbg-CBoAsHyF.png"); background-size: 100% 100%; background-position: 100% 100%; height: 100%; padding-bottom: 40px; position: relative; z-index: 1; }
+.css-6pbjhj { width: 200px; position: absolute; z-index: 1; top: 14%; left: 2%; }
+.css-yjw2s0 { width: 200px; position: absolute; z-index: 1; top: 14%; right: 2%; }
+.css-1dygnvo { padding-left: 32px; padding-right: 32px; position: relative; z-index: 1; }
+.css-1luc4sw { --Grid-columns: 12; --Grid-columnSpacing: 24px; --Grid-rowSpacing: 24px; flex-flow: wrap; min-width: 0px; box-sizing: border-box; gap: var(--Grid-rowSpacing) var(--Grid-columnSpacing); margin-top: 40px; display: flex; -moz-box-pack: center; justify-content: center; }
+.css-1luc4sw > * { --Grid-parent-columns: 12; }
+.css-1luc4sw > * { --Grid-parent-columnSpacing: 24px; }
+.css-1luc4sw > * { --Grid-parent-rowSpacing: 24px; }
+.css-q4x7ip { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 6 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 6) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); min-width: 0px; box-sizing: border-box; }
+@media (min-width: 900px) {
+  .css-q4x7ip { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 3.5 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 3.5) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); }
+}
+.css-1wgfkhw { display: flex; -moz-box-pack: center; justify-content: center; -moz-box-align: center; align-items: center; border: 1px solid rgb(0, 0, 0); border-radius: 12px; background-color: rgb(255, 255, 255); margin: auto; box-shadow: rgb(0, 0, 0) 2px 5px; height: 70px; font-size: 25px; text-transform: uppercase; font-family: Sour Gummy; font-weight: 900; }
+.css-19ynww8 { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 12 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 12) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); min-width: 0px; box-sizing: border-box; }
+@media (min-width: 900px) {
+  .css-19ynww8 { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 5 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 5) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); }
+}
+.css-1fimofp { display: flex; -moz-box-pack: center; justify-content: center; -moz-box-align: center; align-items: center; border: 1px solid rgb(0, 0, 0); border-radius: 12px; background-color: rgb(255, 255, 255); margin: auto; box-shadow: rgb(0, 0, 0) 2px 5px; height: 70px; font-size: 25px; text-transform: uppercase; font-family: Sour Gummy; font-weight: 900; gap: 8px; }
+.css-2rta8y { text-align: center; flex: 0 0 auto; border-radius: 50%; color: rgba(0, 0, 0, 0.54); transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1); --IconButton-hoverBg: rgba(0, 0, 0, 0.04); padding: 5px; font-size: 1.125rem; }
+.css-2rta8y:hover { background-color: var(--IconButton-hoverBg); }
+@media (hover: none) {
+  .css-2rta8y:hover { background-color: transparent; }
+}
+.css-2rta8y.Mui-disabled { background-color: transparent; color: rgba(0, 0, 0, 0.26); }
+.css-oofez5 { display: inline-flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; position: relative; box-sizing: border-box; background-color: transparent; outline: 0px; border: 0px; margin: 0px; cursor: pointer; user-select: none; vertical-align: middle; appearance: none; text-decoration: none; text-align: center; flex: 0 0 auto; border-radius: 50%; color: rgba(0, 0, 0, 0.54); transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1); --IconButton-hoverBg: rgba(0, 0, 0, 0.04); padding: 5px; font-size: 1.125rem; }
+.css-oofez5.Mui-disabled { pointer-events: none; cursor: default; }
+@media print {
+  .css-oofez5 { print-color-adjust: exact; }
+}
+.css-oofez5:hover { background-color: var(--IconButton-hoverBg); }
+@media (hover: none) {
+  .css-oofez5:hover { background-color: transparent; }
+}
+.css-oofez5.Mui-disabled { background-color: transparent; color: rgba(0, 0, 0, 0.26); }
+.css-1kdjc5o { user-select: none; width: 1em; height: 1em; display: inline-block; flex-shrink: 0; transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1); fill: currentcolor; font-size: 1.5rem; color: rgb(0, 0, 0); }
+.css-148agmb { z-index: 1500; pointer-events: none; }
+.css-148agmb[data-popper-placement*="bottom"] .MuiTooltip-arrow { top: 0px; margin-top: -0.71em; }
+.css-148agmb[data-popper-placement*="bottom"] .MuiTooltip-arrow::before { transform-origin: 0px 100% 0px; }
+.css-148agmb[data-popper-placement*="top"] .MuiTooltip-arrow { bottom: 0px; margin-bottom: -0.71em; }
+.css-148agmb[data-popper-placement*="top"] .MuiTooltip-arrow::before { transform-origin: 100% 0px 0px; }
+.css-148agmb[data-popper-placement*="right"] .MuiTooltip-arrow { height: 1em; width: 0.71em; }
+.css-148agmb[data-popper-placement*="right"] .MuiTooltip-arrow::before { transform-origin: 100% 100% 0px; }
+.css-148agmb[data-popper-placement*="left"] .MuiTooltip-arrow { height: 1em; width: 0.71em; }
+.css-148agmb[data-popper-placement*="left"] .MuiTooltip-arrow::before { transform-origin: 0px 0px 0px; }
+.css-148agmb[data-popper-placement*="right"] .MuiTooltip-arrow { left: 0px; margin-left: -0.71em; }
+.css-148agmb[data-popper-placement*="left"] .MuiTooltip-arrow { right: 0px; margin-right: -0.71em; }
+.css-1w0uwdk { z-index: 1500; pointer-events: none; }
+.css-1w0uwdk[data-popper-placement*="bottom"] .MuiTooltip-arrow { top: 0px; margin-top: -0.71em; }
+.css-1w0uwdk[data-popper-placement*="bottom"] .MuiTooltip-arrow::before { transform-origin: 0px 100% 0px; }
+.css-1w0uwdk[data-popper-placement*="top"] .MuiTooltip-arrow { bottom: 0px; margin-bottom: -0.71em; }
+.css-1w0uwdk[data-popper-placement*="top"] .MuiTooltip-arrow::before { transform-origin: 100% 0px 0px; }
+.css-1w0uwdk[data-popper-placement*="right"] .MuiTooltip-arrow { height: 1em; width: 0.71em; }
+.css-1w0uwdk[data-popper-placement*="right"] .MuiTooltip-arrow::before { transform-origin: 100% 100% 0px; }
+.css-1w0uwdk[data-popper-placement*="left"] .MuiTooltip-arrow { height: 1em; width: 0.71em; }
+.css-1w0uwdk[data-popper-placement*="left"] .MuiTooltip-arrow::before { transform-origin: 0px 0px 0px; }
+.css-1w0uwdk[data-popper-placement*="right"] .MuiTooltip-arrow { left: 0px; margin-left: -0.71em; }
+.css-1w0uwdk[data-popper-placement*="left"] .MuiTooltip-arrow { right: 0px; margin-right: -0.71em; }
+.css-13irfhi { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 6 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 6) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); min-width: 0px; box-sizing: border-box; }
+@media (min-width: 900px) {
+  .css-13irfhi { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 3 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 3) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); }
+}
+.css-16rrrso { background-image: url("faqbg-X4aLXisi.png"); background-size: cover; background-position: center center; height: 100%; padding-bottom: 40px; }
+.css-9wvnva { width: 100%; margin-left: auto; box-sizing: border-box; margin-right: auto; padding-left: 16px; padding-right: 16px; }
+@media (min-width: 600px) {
+  .css-9wvnva { padding-left: 24px; padding-right: 24px; }
+}
+@media (min-width: 1200px) {
+  .css-9wvnva { max-width: 1200px; }
+}
+.css-1ihm7c3 { display: flex; -moz-box-pack: center; justify-content: center; padding-top: 40px; }
+.css-1dar14l { position: relative; z-index: 1; width: 80%; padding-bottom: 80px; }
+.css-8875ym { margin-top: 16px; width: 100%; }
+.css-1cnxp9u { position: relative; transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1); overflow-anchor: none; border-radius: 0px; }
+.css-1cnxp9u::before { position: absolute; left: 0px; top: -1px; right: 0px; height: 1px; content: ""; opacity: 1; background-color: rgba(0, 0, 0, 0.12); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1), background-color 150ms cubic-bezier(0.4, 0, 0.2, 1); }
+.css-1cnxp9u:first-of-type::before { display: none; }
+.css-1cnxp9u.Mui-expanded::before { opacity: 0; }
+.css-1cnxp9u.Mui-expanded:first-of-type { margin-top: 0px; }
+.css-1cnxp9u.Mui-expanded:last-of-type { margin-bottom: 0px; }
+.css-1cnxp9u.Mui-expanded + .css-1cnxp9u.Mui-expanded::before { display: none; }
+.css-1cnxp9u.Mui-disabled { background-color: rgba(0, 0, 0, 0.12); }
+.css-1cnxp9u:first-of-type { border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.css-1cnxp9u:last-of-type { border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; }
+@supports (-ms-ime-align: auto) {
+  .css-1cnxp9u:last-of-type { border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; }
+}
+.css-1cnxp9u.Mui-expanded { margin: 16px 0px; }
+.css-1pug5wj { background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.87); box-shadow: var(--Paper-shadow); background-image: var(--Paper-overlay); position: relative; transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1); overflow-anchor: none; border-radius: 0px; }
+.css-1pug5wj::before { position: absolute; left: 0px; top: -1px; right: 0px; height: 1px; content: ""; opacity: 1; background-color: rgba(0, 0, 0, 0.12); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1), background-color 150ms cubic-bezier(0.4, 0, 0.2, 1); }
+.css-1pug5wj:first-of-type::before { display: none; }
+.css-1pug5wj.Mui-expanded::before { opacity: 0; }
+.css-1pug5wj.Mui-expanded:first-of-type { margin-top: 0px; }
+.css-1pug5wj.Mui-expanded:last-of-type { margin-bottom: 0px; }
+.css-1pug5wj.Mui-expanded + .css-1pug5wj.Mui-expanded::before { display: none; }
+.css-1pug5wj.Mui-disabled { background-color: rgba(0, 0, 0, 0.12); }
+.css-1pug5wj:first-of-type { border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.css-1pug5wj:last-of-type { border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; }
+@supports (-ms-ime-align: auto) {
+  .css-1pug5wj:last-of-type { border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; }
+}
+.css-1pug5wj.Mui-expanded { margin: 16px 0px; }
+.css-wnfue5 { all: unset; }
+.css-30bm24 { display: flex; width: 100%; min-height: 48px; padding: 0px 16px; transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1), background-color 150ms cubic-bezier(0.4, 0, 0.2, 1); }
+.css-30bm24.Mui-focusVisible { background-color: rgba(0, 0, 0, 0.12); }
+.css-30bm24.Mui-disabled { opacity: 0.38; }
+.css-30bm24:hover:not(.Mui-disabled) { cursor: pointer; }
+.css-30bm24.Mui-expanded { min-height: 64px; }
+.css-3pzm2w { -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; position: relative; box-sizing: border-box; background-color: transparent; outline: 0px; border: 0px; margin: 0px; border-radius: 0px; cursor: pointer; user-select: none; vertical-align: middle; appearance: none; text-decoration: none; color: inherit; display: flex; width: 100%; min-height: 48px; padding: 0px 16px; transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1), background-color 150ms cubic-bezier(0.4, 0, 0.2, 1); }
+.css-3pzm2w.Mui-disabled { pointer-events: none; cursor: default; }
+@media print {
+  .css-3pzm2w { print-color-adjust: exact; }
+}
+.css-3pzm2w.Mui-focusVisible { background-color: rgba(0, 0, 0, 0.12); }
+.css-3pzm2w.Mui-disabled { opacity: 0.38; }
+.css-3pzm2w:hover:not(.Mui-disabled) { cursor: pointer; }
+.css-3pzm2w.Mui-expanded { min-height: 64px; }
+.css-1b8uc0m { display: flex; text-align: start; -moz-box-flex: 1; flex-grow: 1; margin: 12px 0px; transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1); }
+.css-1b8uc0m.Mui-expanded { margin: 20px 0px; }
+.css-v53c7c { padding-left: 16px; padding-right: 16px; text-align: left; font-size: 32px; font-weight: 900; font-family: Sour Gummy; color: rgb(0, 0, 0); text-transform: uppercase; }
+.css-f8wb7g { display: flex; color: rgba(0, 0, 0, 0.54); transform: rotate(0deg); transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1); }
+.css-f8wb7g.Mui-expanded { transform: rotate(180deg); }
+.css-2ku4ji { border-radius: 50%; height: 35px; width: 35px; background: rgb(242, 197, 59); display: flex; -moz-box-pack: center; justify-content: center; -moz-box-align: center; align-items: center; border: 1px solid rgb(0, 0, 0); }
+.css-q7mezt { user-select: none; width: 1em; height: 1em; display: inline-block; flex-shrink: 0; transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1); fill: currentcolor; font-size: 1.5rem; }
+.css-abqyn { height: 0px; overflow: hidden; transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1); visibility: hidden; }
+.css-15830to { display: flex; width: 100%; }
+.css-9vd5ud { width: 100%; }
+.css-l9xe8y { padding: 8px 16px 16px; }
+.css-1aqp4vg { padding-left: 16px; padding-bottom: 24px; font-size: 18px; font-family: Poppins; color: rgb(82, 82, 82); }
+.css-1j2qfcl { background-image: url("footbg-BU8FREcb.png"); background-size: 100% 100%; background-position: 100% 100%; height: 100%; padding-top: 80px; }
+.css-gajhq5 { padding-left: 16px; padding-right: 16px; }
+.css-c2lpbn { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 12 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 12) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); min-width: 0px; box-sizing: border-box; display: flex; flex-direction: column; -moz-box-pack: end; justify-content: flex-end; }
+@media (min-width: 900px) {
+  .css-c2lpbn { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 3.5 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 3.5) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); }
+}
+.css-i3jhjj { margin: 24px 0px 0px; line-height: 1.5; letter-spacing: 0.00938em; color: rgb(0, 0, 0); font-size: 24px; font-weight: 600; font-family: Sour Gummy; text-transform: uppercase; }
+.css-sldn83 { margin: 16px 0px 0px; line-height: 1.5; letter-spacing: 0.00938em; color: rgb(0, 0, 0); font-size: 24px; font-weight: 600; font-family: Sour Gummy; text-transform: uppercase; }
+.css-11zdfij { margin: 32px 0px 16px; font-weight: 400; line-height: 1.5; letter-spacing: 0.00938em; color: rgb(0, 0, 0); font-size: 20px; font-family: Poppins; }
+.css-vd393e { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 12 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 12) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); min-width: 0px; box-sizing: border-box; order: 2; }
+@media (min-width: 900px) {
+  .css-vd393e { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 5 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 5) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); }
+}
+.css-aygqex { margin: 0px; font-weight: 400; line-height: 1.5; letter-spacing: 0.00938em; font-family: Poppins; font-size: 14px; text-align: center; padding-left: 40px; padding-right: 40px; padding-bottom: 8px; }
+.css-1yh5ciw { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 12 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 12) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); min-width: 0px; box-sizing: border-box; order: 3; display: flex; -moz-box-pack: end; justify-content: flex-end; -moz-box-align: center; align-items: center; position: relative; z-index: 1; }
+@media (min-width: 900px) {
+  .css-1yh5ciw { -moz-box-flex: 0; flex-grow: 0; flex-basis: auto; width: calc(100% * 3.5 / var(--Grid-parent-columns) - (var(--Grid-parent-columns) - 3.5) * (var(--Grid-parent-columnSpacing) / var(--Grid-parent-columns))); }
+}
+.css-1sojzlo { width: 15px; height: 63%; background: rgb(0, 0, 0); border-radius: 4px; position: absolute; z-index: 1; bottom: 0px; right: 0px; }
+.css-1ov46kg { display: flex; flex-direction: column; }
+.css-1ov46kg > :not(style):not(style) { margin: 0px; }
+.css-1ov46kg > :not(style) ~ :not(style) { margin-top: 16px; }
+.css-ky4xzw { font-family: "Roboto", "Helvetica", "Arial", sans-serif; font-weight: 500; font-size: 0.875rem; line-height: 1.75; letter-spacing: 0.02857em; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; background-color: rgb(0, 0, 0); border: 1px solid rgb(255, 255, 255); color: rgb(251, 192, 45); border-radius: 10px; padding: 10px 20px; -moz-box-pack: start; justify-content: flex-start; min-width: 250px; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px; text-transform: none; }
+.css-ky4xzw:hover { text-decoration: none; }
+.css-ky4xzw.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+.css-ky4xzw:hover { box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px; }
+@media (hover: none) {
+  .css-ky4xzw:hover { box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px; }
+}
+.css-ky4xzw:active { box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px; }
+.css-ky4xzw.Mui-focusVisible { box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px; }
+.css-ky4xzw.Mui-disabled { color: rgba(0, 0, 0, 0.26); box-shadow: none; background-color: rgba(0, 0, 0, 0.12); }
+@media (hover: hover) {
+  .css-ky4xzw:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-ky4xzw:hover { background-color: rgb(17, 17, 17); }
+.css-cscg1q { display: inline-flex; -moz-box-align: center; align-items: center; position: relative; box-sizing: border-box; outline: 0px; margin: 0px; cursor: pointer; user-select: none; vertical-align: middle; appearance: none; text-decoration: none; font-family: "Roboto", "Helvetica", "Arial", sans-serif; font-weight: 500; font-size: 0.875rem; line-height: 1.75; letter-spacing: 0.02857em; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; background-color: rgb(0, 0, 0); border: 1px solid rgb(255, 255, 255); color: rgb(251, 192, 45); border-radius: 10px; padding: 10px 20px; -moz-box-pack: start; justify-content: flex-start; min-width: 250px; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px; text-transform: none; }
+.css-cscg1q.Mui-disabled { pointer-events: none; cursor: default; }
+@media print {
+  .css-cscg1q { print-color-adjust: exact; }
+}
+.css-cscg1q:hover { text-decoration: none; }
+.css-cscg1q.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+.css-cscg1q:hover { box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px; }
+@media (hover: none) {
+  .css-cscg1q:hover { box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px; }
+}
+.css-cscg1q:active { box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px; }
+.css-cscg1q.Mui-focusVisible { box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px; }
+.css-cscg1q.Mui-disabled { color: rgba(0, 0, 0, 0.26); box-shadow: none; background-color: rgba(0, 0, 0, 0.12); }
+@media (hover: hover) {
+  .css-cscg1q:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-cscg1q:hover { background-color: rgb(17, 17, 17); }
+.css-1s63ceu { display: inherit; margin-right: 8px; margin-left: -4px; }
+.css-1s63ceu > :nth-of-type(1) { font-size: 20px; }
+.css-1acjh5i { margin: 0px; font-family: "Roboto", "Helvetica", "Arial", sans-serif; font-size: 1rem; line-height: 1.5; letter-spacing: 0.00938em; font-weight: 700; }
+.css-1ofxp85 { position: fixed; z-index: 1300; inset: 0px; visibility: hidden; }
+@media print {
+  .css-1ofxp85 { position: absolute !important; }
+}
+.css-1ofxp85 .MuiDialog-root { z-index: 1301 !important; }
+.css-1ofxp85.MuiDialog-container { overflow-y: hidden !important; }
+.css-1ofxp85 .MuiDialog-paperScrollPaper { background-color: black; height: auto; box-shadow: black 0px 0px 8px 1px; border-radius: 10px; }
+.css-1ofxp85 .dialoge__content__section { background: black !important; border-radius: 10px; border: 1px solid transparent; }
+.css-1ofxp85 .MuiDialogContent-root { padding-top: 20px; padding-bottom: 20px; }
+.css-lw0xdp { z-index: -1; }
+.css-14dl35y { position: fixed; display: flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; inset: 0px; background-color: rgba(0, 0, 0, 0.5); z-index: -1; }
+.css-8azq84 { height: 100%; outline: 0px; display: flex; -moz-box-pack: center; justify-content: center; -moz-box-align: center; align-items: center; }
+@media print {
+  .css-8azq84 { height: auto; }
+}
+.css-11fepzc { margin: 32px; position: relative; overflow-y: auto; display: flex; flex-direction: column; max-height: calc(100% - 64px); max-width: 600px; }
+@media print {
+  .css-11fepzc { overflow-y: visible; box-shadow: none; }
+}
+@media (max-width: 663.95px) {
+  .css-11fepzc.MuiDialog-paperScrollBody { max-width: calc(100% - 64px); }
+}
+.css-si425x { background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.87); transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1); border-radius: 4px; box-shadow: var(--Paper-shadow); background-image: var(--Paper-overlay); margin: 32px; position: relative; overflow-y: auto; display: flex; flex-direction: column; max-height: calc(100% - 64px); max-width: 600px; }
+@media print {
+  .css-si425x { overflow-y: visible; box-shadow: none; }
+}
+@media (max-width: 663.95px) {
+  .css-si425x.MuiDialog-paperScrollBody { max-width: calc(100% - 64px); }
+}
+.css-1nbx5hx { flex: 1 1 auto; overflow-y: auto; padding: 20px 24px; }
+.MuiDialogTitle-root + .css-1nbx5hx { padding-top: 0px; }
+.css-rtuo1s { border-radius: 100px; display: flex; -moz-box-align: center; align-items: center; flex-direction: column; }
+.css-1bd2mpk { display: flex; flex-direction: column; -moz-box-align: center; align-items: center; }
+@media (min-width: 0px) {
+  .css-1bd2mpk { width: 35%; }
+}
+@media (min-width: 600px) {
+  .css-1bd2mpk { width: 25%; }
+}
+.css-1hhh53s { margin: 16px 0px 0px; font-family: "Roboto", "Helvetica", "Arial", sans-serif; font-size: 1rem; line-height: 1.5; letter-spacing: 0.00938em; color: rgb(255, 255, 255); font-weight: 400; text-align: center; }
+@media (min-width: 0px) {
+  .css-1hhh53s { font-size: 20px; }
+}
+@media (min-width: 600px) {
+  .css-1hhh53s { font-size: 26px; }
+}
+.css-1aydnxt { margin: 16px 0px 0px; font-family: "Roboto", "Helvetica", "Arial", sans-serif; line-height: 1.5; letter-spacing: 0.00938em; color: rgb(255, 255, 255); font-size: 16px; font-weight: 400; text-align: center; }
+.css-1yuhvjn { margin-top: 16px; }
+.css-hltb6i { font-weight: 500; line-height: 1.75; letter-spacing: 0.02857em; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 8px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(255, 255, 255); background: rgb(0, 108, 40); box-shadow: rgba(0, 0, 0, 0.25) 0px -4px 0px inset, rgb(0, 0, 0) 0px 3px 0px; text-transform: capitalize; height: 50px; font-size: 22px; font-family: Sour Gummy; border-radius: 10px; border: 1px solid rgb(0, 0, 0); width: 230px; }
+.css-hltb6i:hover { text-decoration: none; }
+.css-hltb6i.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-hltb6i:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-hltb6i.Mui-disabled { color: rgb(151, 158, 167); }
+.css-hltb6i:hover { background: rgb(248, 113, 19); color: rgb(0, 0, 0); }
+.css-1fyr3l0 { display: inline-flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; position: relative; box-sizing: border-box; outline: 0px; margin: 0px; cursor: pointer; user-select: none; vertical-align: middle; appearance: none; text-decoration: none; font-weight: 500; line-height: 1.75; letter-spacing: 0.02857em; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 8px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(255, 255, 255); background: rgb(0, 108, 40); box-shadow: rgba(0, 0, 0, 0.25) 0px -4px 0px inset, rgb(0, 0, 0) 0px 3px 0px; text-transform: capitalize; height: 50px; font-size: 22px; font-family: Sour Gummy; border-radius: 10px; border: 1px solid rgb(0, 0, 0); width: 230px; }
+.css-1fyr3l0.Mui-disabled { pointer-events: none; cursor: default; }
+@media print {
+  .css-1fyr3l0 { print-color-adjust: exact; }
+}
+.css-1fyr3l0:hover { text-decoration: none; }
+.css-1fyr3l0.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-1fyr3l0:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-1fyr3l0.Mui-disabled { color: rgb(151, 158, 167); }
+.css-1fyr3l0:hover { background: rgb(248, 113, 19); color: rgb(0, 0, 0); }
+.css-cydgor { margin-right: 16px; width: fit-content; display: flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; font-size: 22px; font-weight: 700; font-family: Sour Gummy; color: rgb(0, 0, 0); padding-left: 16px; padding-right: 16px; height: 44px; border-radius: 8px; background: rgb(244, 235, 130); border: 1px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 1px 3px 0px; cursor: pointer; }
+.css-cydgor:hover { color: rgb(0, 108, 40); }
+.css-18k7grm { margin-right: 16px; width: fit-content; display: flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; font-size: 22px; font-weight: 700; font-family: Sour Gummy; color: rgb(0, 0, 0); padding-left: 16px; padding-right: 16px; height: 44px; border-radius: 8px; background: rgb(196, 153, 225); border: 1px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 1px 3px 0px; cursor: pointer; }
+.css-18k7grm:hover { color: rgb(0, 108, 40); }
+.css-i13ub7 { margin-right: 16px; width: fit-content; display: flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; font-size: 22px; font-weight: 700; font-family: Sour Gummy; color: rgb(0, 0, 0); padding-left: 16px; padding-right: 16px; height: 44px; border-radius: 8px; background: rgb(246, 158, 150); border: 1px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 1px 3px 0px; cursor: pointer; }
+.css-i13ub7:hover { color: rgb(0, 108, 40); }
+.css-1n4h724 { margin-right: 16px; width: fit-content; display: flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; font-size: 22px; font-weight: 700; font-family: Sour Gummy; color: rgb(0, 0, 0); padding-left: 16px; padding-right: 16px; height: 44px; border-radius: 8px; background: rgb(171, 231, 192); border: 1px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 1px 3px 0px; cursor: pointer; }
+.css-1n4h724:hover { color: rgb(0, 108, 40); }
+.css-wd3l3t { margin-right: 0px; width: fit-content; display: flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; font-size: 22px; font-weight: 700; font-family: Sour Gummy; color: rgb(0, 0, 0); padding-left: 16px; padding-right: 16px; height: 44px; border-radius: 8px; background: rgb(255, 113, 52); border: 1px solid rgb(0, 0, 0); box-shadow: rgb(0, 0, 0) 1px 3px 0px; cursor: pointer; }
+.css-wd3l3t:hover { color: rgb(0, 108, 40); }
+.css-8qy7s1 { font-weight: 500; line-height: 1.75; letter-spacing: 0.02857em; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 8px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(255, 255, 255); background: rgb(0, 108, 40); box-shadow: rgba(0, 0, 0, 0.25) 0px -4px 0px inset, rgb(0, 0, 0) 0px 3px 0px; text-transform: capitalize; height: 50px; font-size: 22px; font-family: Sour Gummy; border-radius: 10px; border: 1px solid rgb(0, 0, 0); width: 200px; }
+.css-8qy7s1:hover { text-decoration: none; }
+.css-8qy7s1.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-8qy7s1:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-8qy7s1.Mui-disabled { color: rgb(151, 158, 167); }
+.css-8qy7s1:hover { background: rgb(248, 113, 19); color: rgb(0, 0, 0); }
+.css-1om0mpl { display: inline-flex; -moz-box-align: center; align-items: center; -moz-box-pack: center; justify-content: center; position: relative; box-sizing: border-box; outline: 0px; margin: 0px; cursor: pointer; user-select: none; vertical-align: middle; appearance: none; text-decoration: none; font-weight: 500; line-height: 1.75; letter-spacing: 0.02857em; min-width: 64px; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); padding: 6px 8px; --variant-textColor: #1976d2; --variant-outlinedColor: #1976d2; --variant-outlinedBorder: rgba(25, 118, 210, 0.5); --variant-containedColor: #fff; --variant-containedBg: #1976d2; color: rgb(255, 255, 255); background: rgb(0, 108, 40); box-shadow: rgba(0, 0, 0, 0.25) 0px -4px 0px inset, rgb(0, 0, 0) 0px 3px 0px; text-transform: capitalize; height: 50px; font-size: 22px; font-family: Sour Gummy; border-radius: 10px; border: 1px solid rgb(0, 0, 0); width: 200px; }
+.css-1om0mpl.Mui-disabled { pointer-events: none; cursor: default; }
+@media print {
+  .css-1om0mpl { print-color-adjust: exact; }
+}
+.css-1om0mpl:hover { text-decoration: none; }
+.css-1om0mpl.Mui-disabled { color: rgba(0, 0, 0, 0.26); }
+@media (hover: hover) {
+  .css-1om0mpl:hover { --variant-containedBg: #1565c0; --variant-textBg: rgba(25, 118, 210, 0.04); --variant-outlinedBorder: #1976d2; --variant-outlinedBg: rgba(25, 118, 210, 0.04); }
+}
+.css-1om0mpl.Mui-disabled { color: rgb(151, 158, 167); }
+.css-1om0mpl:hover { background: rgb(248, 113, 19); color: rgb(0, 0, 0); }
+.css-1b1gfpt { margin: 0px; line-height: 1.5; letter-spacing: 0.00938em; color: rgb(0, 0, 0); font-weight: 700; font-family: Sour Gummy; font-size: 18px; padding-top: 2px; padding-bottom: 2px; }
+.css-w0b4ss { margin: 0px 0px 0px 33.6px; line-height: 1.5; letter-spacing: 0.00938em; color: rgb(0, 0, 0); font-weight: 700; font-family: Sour Gummy; font-size: 28px; padding-top: 8px; padding-bottom: 8px; }
+.css-z9vm8q { position: absolute; left: 0px; top: 0px; bottom: 0px; background-color: rgb(244, 235, 130); border-radius: 26px; background-size: 100% 100%; background-repeat: no-repeat; z-index: 0; }
+.css-z9vm8q::after { content: ""; display: block; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.125) 25%, rgba(0, 0, 0, 0.125) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.125) 75%, rgba(0, 0, 0, 0.125)); background-size: 20px 20px; animation: 2s linear infinite animation-q18qtb; }
+@keyframes animation-q18qtb {
+0% { background-position: 0px 0px; }
+100% { background-position: 40px 0px; }
+}
+@keyframes animation-q18qtb {
+0% { background-position: 0px 0px; }
+100% { background-position: 40px 0px; }
+}
+.css-1v55cqb { position: absolute; left: 0px; top: 0px; bottom: 0px; width: 97.8439%; background-color: rgb(244, 235, 130); border-radius: 26px; background-size: 100% 100%; background-repeat: no-repeat; z-index: 0; }
+.css-1v55cqb::after { content: ""; display: block; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.125) 25%, rgba(0, 0, 0, 0.125) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.125) 75%, rgba(0, 0, 0, 0.125)); background-size: 20px 20px; animation: 2s linear infinite animation-q18qtb; }
+@keyframes animation-q18qtb {
+0% { background-position: 0px 0px; }
+100% { background-position: 40px 0px; }
+}
+@keyframes animation-q18qtb {
+0% { background-position: 0px 0px; }
+100% { background-position: 40px 0px; }
+}</style><meta http-equiv="origin-trial" content="A41wt2Lsq30A9Ox/WehogvJckPI4aY9RoSxhb8FMtVnqaUle1AtI6Yf7Wk+7+Wm0AfDDOkMX+Wn6wnDpBWYgWwYAAAB8eyJvcmlnaW4iOiJodHRwczovL2Fkcm9sbC5jb206NDQzIiwiZmVhdHVyZSI6IkludGVyZXN0Q29ob3J0QVBJIiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><style>
+      @import url("css2.css");
+      @keyframes w3m-shake {
+        0% {
+          transform: scale(1) rotate(0deg);
+        }
+        20% {
+          transform: scale(1) rotate(-1deg);
+        }
+        40% {
+          transform: scale(1) rotate(1.5deg);
+        }
+        60% {
+          transform: scale(1) rotate(-1.5deg);
+        }
+        80% {
+          transform: scale(1) rotate(1deg);
+        }
+        100% {
+          transform: scale(1) rotate(0deg);
+        }
+      }
+      @keyframes w3m-iframe-fade-out {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      @keyframes w3m-iframe-zoom-in {
+        0% {
+          transform: translateY(50px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+      }
+      @keyframes w3m-iframe-zoom-in-mobile {
+        0% {
+          transform: scale(0.95);
+          opacity: 0;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+      :root {
+        --w3m-modal-width: 360px;
+        --w3m-color-mix-strength: 0%;
+        --w3m-font-family: Inter, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;;
+        --w3m-font-size-master: 10px;
+        --w3m-border-radius-master: 4px;
+        --w3m-z-index: 999;
+
+        --wui-font-family: var(--w3m-font-family);
+
+        --wui-font-size-mini: calc(var(--w3m-font-size-master) * 0.8);
+        --wui-font-size-micro: var(--w3m-font-size-master);
+        --wui-font-size-tiny: calc(var(--w3m-font-size-master) * 1.2);
+        --wui-font-size-small: calc(var(--w3m-font-size-master) * 1.4);
+        --wui-font-size-paragraph: calc(var(--w3m-font-size-master) * 1.6);
+        --wui-font-size-medium: calc(var(--w3m-font-size-master) * 1.8);
+        --wui-font-size-large: calc(var(--w3m-font-size-master) * 2);
+        --wui-font-size-title-6: calc(var(--w3m-font-size-master) * 2.2);
+        --wui-font-size-medium-title: calc(var(--w3m-font-size-master) * 2.4);
+        --wui-font-size-2xl: calc(var(--w3m-font-size-master) * 4);
+
+        --wui-border-radius-5xs: var(--w3m-border-radius-master);
+        --wui-border-radius-4xs: calc(var(--w3m-border-radius-master) * 1.5);
+        --wui-border-radius-3xs: calc(var(--w3m-border-radius-master) * 2);
+        --wui-border-radius-xxs: calc(var(--w3m-border-radius-master) * 3);
+        --wui-border-radius-xs: calc(var(--w3m-border-radius-master) * 4);
+        --wui-border-radius-s: calc(var(--w3m-border-radius-master) * 5);
+        --wui-border-radius-m: calc(var(--w3m-border-radius-master) * 7);
+        --wui-border-radius-l: calc(var(--w3m-border-radius-master) * 9);
+        --wui-border-radius-3xl: calc(var(--w3m-border-radius-master) * 20);
+
+        --wui-font-weight-light: 400;
+        --wui-font-weight-regular: 500;
+        --wui-font-weight-medium: 600;
+        --wui-font-weight-bold: 700;
+
+        --wui-letter-spacing-2xl: -1.6px;
+        --wui-letter-spacing-medium-title: -0.96px;
+        --wui-letter-spacing-title-6: -0.88px;
+        --wui-letter-spacing-large: -0.8px;
+        --wui-letter-spacing-medium: -0.72px;
+        --wui-letter-spacing-paragraph: -0.64px;
+        --wui-letter-spacing-small: -0.56px;
+        --wui-letter-spacing-tiny: -0.48px;
+        --wui-letter-spacing-micro: -0.2px;
+        --wui-letter-spacing-mini: -0.16px;
+
+        --wui-spacing-0: 0px;
+        --wui-spacing-4xs: 2px;
+        --wui-spacing-3xs: 4px;
+        --wui-spacing-xxs: 6px;
+        --wui-spacing-2xs: 7px;
+        --wui-spacing-xs: 8px;
+        --wui-spacing-1xs: 10px;
+        --wui-spacing-s: 12px;
+        --wui-spacing-m: 14px;
+        --wui-spacing-l: 16px;
+        --wui-spacing-2l: 18px;
+        --wui-spacing-xl: 20px;
+        --wui-spacing-xxl: 24px;
+        --wui-spacing-2xl: 32px;
+        --wui-spacing-3xl: 40px;
+        --wui-spacing-4xl: 90px;
+        --wui-spacing-5xl: 95px;
+
+        --wui-icon-box-size-xxs: 14px;
+        --wui-icon-box-size-xs: 20px;
+        --wui-icon-box-size-sm: 24px;
+        --wui-icon-box-size-md: 32px;
+        --wui-icon-box-size-mdl: 36px;
+        --wui-icon-box-size-lg: 40px;
+        --wui-icon-box-size-2lg: 48px;
+        --wui-icon-box-size-xl: 64px;
+
+        --wui-icon-size-inherit: inherit;
+        --wui-icon-size-xxs: 10px;
+        --wui-icon-size-xs: 12px;
+        --wui-icon-size-sm: 14px;
+        --wui-icon-size-md: 16px;
+        --wui-icon-size-mdl: 18px;
+        --wui-icon-size-lg: 20px;
+        --wui-icon-size-xl: 24px;
+        --wui-icon-size-xxl: 28px;
+
+        --wui-wallet-image-size-inherit: inherit;
+        --wui-wallet-image-size-sm: 40px;
+        --wui-wallet-image-size-md: 56px;
+        --wui-wallet-image-size-lg: 80px;
+
+        --wui-visual-size-size-inherit: inherit;
+        --wui-visual-size-sm: 40px;
+        --wui-visual-size-md: 55px;
+        --wui-visual-size-lg: 80px;
+
+        --wui-box-size-md: 100px;
+        --wui-box-size-lg: 120px;
+
+        --wui-ease-out-power-2: cubic-bezier(0, 0, 0.22, 1);
+        --wui-ease-out-power-1: cubic-bezier(0, 0, 0.55, 1);
+
+        --wui-ease-in-power-3: cubic-bezier(0.66, 0, 1, 1);
+        --wui-ease-in-power-2: cubic-bezier(0.45, 0, 1, 1);
+        --wui-ease-in-power-1: cubic-bezier(0.3, 0, 1, 1);
+
+        --wui-ease-inout-power-1: cubic-bezier(0.45, 0, 0.55, 1);
+
+        --wui-duration-lg: 200ms;
+        --wui-duration-md: 125ms;
+        --wui-duration-sm: 75ms;
+
+        --wui-path-network-sm: path(
+          'M15.4 2.1a5.21 5.21 0 0 1 5.2 0l11.61 6.7a5.21 5.21 0 0 1 2.61 4.52v13.4c0 1.87-1 3.59-2.6 4.52l-11.61 6.7c-1.62.93-3.6.93-5.22 0l-11.6-6.7a5.21 5.21 0 0 1-2.61-4.51v-13.4c0-1.87 1-3.6 2.6-4.52L15.4 2.1Z'
+        );
+
+        --wui-path-network-md: path(
+          'M43.4605 10.7248L28.0485 1.61089C25.5438 0.129705 22.4562 0.129705 19.9515 1.61088L4.53951 10.7248C2.03626 12.2051 0.5 14.9365 0.5 17.886V36.1139C0.5 39.0635 2.03626 41.7949 4.53951 43.2752L19.9515 52.3891C22.4562 53.8703 25.5438 53.8703 28.0485 52.3891L43.4605 43.2752C45.9637 41.7949 47.5 39.0635 47.5 36.114V17.8861C47.5 14.9365 45.9637 12.2051 43.4605 10.7248Z'
+        );
+
+        --wui-path-network-lg: path(
+          'M78.3244 18.926L50.1808 2.45078C45.7376 -0.150261 40.2624 -0.150262 35.8192 2.45078L7.6756 18.926C3.23322 21.5266 0.5 26.3301 0.5 31.5248V64.4752C0.5 69.6699 3.23322 74.4734 7.6756 77.074L35.8192 93.5492C40.2624 96.1503 45.7376 96.1503 50.1808 93.5492L78.3244 77.074C82.7668 74.4734 85.5 69.6699 85.5 64.4752V31.5248C85.5 26.3301 82.7668 21.5266 78.3244 18.926Z'
+        );
+
+        --wui-width-network-sm: 36px;
+        --wui-width-network-md: 48px;
+        --wui-width-network-lg: 86px;
+
+        --wui-height-network-sm: 40px;
+        --wui-height-network-md: 54px;
+        --wui-height-network-lg: 96px;
+
+        --wui-icon-size-network-xs: 12px;
+        --wui-icon-size-network-sm: 16px;
+        --wui-icon-size-network-md: 24px;
+        --wui-icon-size-network-lg: 42px;
+
+        --wui-color-inherit: inherit;
+
+        --wui-color-inverse-100: #fff;
+        --wui-color-inverse-000: #000;
+
+        --wui-cover: rgba(20, 20, 20, 0.8);
+
+        --wui-color-modal-bg: var(--wui-color-modal-bg-base);
+
+        --wui-color-accent-100: var(--wui-color-accent-base-100);
+        --wui-color-accent-090: var(--wui-color-accent-base-090);
+        --wui-color-accent-080: var(--wui-color-accent-base-080);
+
+        --wui-color-success-100: var(--wui-color-success-base-100);
+        --wui-color-success-125: var(--wui-color-success-base-125);
+
+        --wui-color-warning-100: var(--wui-color-warning-base-100);
+
+        --wui-color-error-100: var(--wui-color-error-base-100);
+        --wui-color-error-125: var(--wui-color-error-base-125);
+
+        --wui-color-blue-100: var(--wui-color-blue-base-100);
+        --wui-color-blue-90: var(--wui-color-blue-base-90);
+
+        --wui-icon-box-bg-error-100: var(--wui-icon-box-bg-error-base-100);
+        --wui-icon-box-bg-blue-100: var(--wui-icon-box-bg-blue-base-100);
+        --wui-icon-box-bg-success-100: var(--wui-icon-box-bg-success-base-100);
+        --wui-icon-box-bg-inverse-100: var(--wui-icon-box-bg-inverse-base-100);
+
+        --wui-all-wallets-bg-100: var(--wui-all-wallets-bg-100);
+
+        --wui-avatar-border: var(--wui-avatar-border-base);
+
+        --wui-thumbnail-border: var(--wui-thumbnail-border-base);
+
+        --wui-wallet-button-bg: var(--wui-wallet-button-bg-base);
+
+        --wui-box-shadow-blue: var(--wui-color-accent-glass-020);
+      }
+
+      @supports (background: color-mix(in srgb, white 50%, black)) {
+        :root {
+          --wui-color-modal-bg: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-modal-bg-base)
+          );
+
+          --wui-box-shadow-blue: color-mix(in srgb, var(--wui-color-accent-100) 20%, transparent);
+
+          --wui-color-accent-100: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 100%,
+            transparent
+          );
+          --wui-color-accent-090: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 90%,
+            transparent
+          );
+          --wui-color-accent-080: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 80%,
+            transparent
+          );
+          --wui-color-accent-glass-090: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 90%,
+            transparent
+          );
+          --wui-color-accent-glass-080: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 80%,
+            transparent
+          );
+          --wui-color-accent-glass-020: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 20%,
+            transparent
+          );
+          --wui-color-accent-glass-015: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 15%,
+            transparent
+          );
+          --wui-color-accent-glass-010: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 10%,
+            transparent
+          );
+          --wui-color-accent-glass-005: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 5%,
+            transparent
+          );
+          --wui-color-accent-002: color-mix(
+            in srgb,
+            var(--wui-color-accent-base-100) 2%,
+            transparent
+          );
+
+          --wui-color-fg-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-100)
+          );
+          --wui-color-fg-125: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-125)
+          );
+          --wui-color-fg-150: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-150)
+          );
+          --wui-color-fg-175: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-175)
+          );
+          --wui-color-fg-200: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-200)
+          );
+          --wui-color-fg-225: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-225)
+          );
+          --wui-color-fg-250: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-250)
+          );
+          --wui-color-fg-275: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-275)
+          );
+          --wui-color-fg-300: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-300)
+          );
+          --wui-color-fg-325: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-325)
+          );
+          --wui-color-fg-350: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-fg-350)
+          );
+
+          --wui-color-bg-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-100)
+          );
+          --wui-color-bg-125: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-125)
+          );
+          --wui-color-bg-150: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-150)
+          );
+          --wui-color-bg-175: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-175)
+          );
+          --wui-color-bg-200: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-200)
+          );
+          --wui-color-bg-225: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-225)
+          );
+          --wui-color-bg-250: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-250)
+          );
+          --wui-color-bg-275: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-275)
+          );
+          --wui-color-bg-300: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-300)
+          );
+          --wui-color-bg-325: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-325)
+          );
+          --wui-color-bg-350: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-bg-350)
+          );
+
+          --wui-color-success-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-success-base-100)
+          );
+          --wui-color-success-125: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-success-base-125)
+          );
+
+          --wui-color-warning-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-warning-base-100)
+          );
+
+          --wui-color-error-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-error-base-100)
+          );
+          --wui-color-blue-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-blue-base-100)
+          );
+          --wui-color-blue-90: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-blue-base-90)
+          );
+          --wui-color-error-125: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-color-error-base-125)
+          );
+
+          --wui-icon-box-bg-error-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-icon-box-bg-error-base-100)
+          );
+          --wui-icon-box-bg-accent-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-icon-box-bg-blue-base-100)
+          );
+          --wui-icon-box-bg-success-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-icon-box-bg-success-base-100)
+          );
+          --wui-icon-box-bg-inverse-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-icon-box-bg-inverse-base-100)
+          );
+
+          --wui-all-wallets-bg-100: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-all-wallets-bg-100)
+          );
+
+          --wui-avatar-border: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-avatar-border-base)
+          );
+
+          --wui-thumbnail-border: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-thumbnail-border-base)
+          );
+
+          --wui-wallet-button-bg: color-mix(
+            in srgb,
+            var(--w3m-color-mix) var(--w3m-color-mix-strength),
+            var(--wui-wallet-button-bg-base)
+          );
+        }
+      }
+    </style><style media="enabled">
+      :root {
+        --w3m-color-mix: #000;
+        --w3m-accent: hsla(231, 100%, 70%, 1);
+        --w3m-default: #000;
+
+        --wui-color-modal-bg-base: #fff;
+        --wui-color-accent-base-100: var(--w3m-accent);
+
+        --wui-color-blueberry-100: hsla(231, 100%, 70%, 1);
+        --wui-color-blueberry-090: hsla(231, 97%, 72%, 1);
+        --wui-color-blueberry-080: hsla(231, 92%, 74%, 1);
+
+        --wui-color-fg-100: #141414;
+        --wui-color-fg-125: #2d3131;
+        --wui-color-fg-150: #474d4d;
+        --wui-color-fg-175: #636d6d;
+        --wui-color-fg-200: #798686;
+        --wui-color-fg-225: #828f8f;
+        --wui-color-fg-250: #8b9797;
+        --wui-color-fg-275: #95a0a0;
+        --wui-color-fg-300: #9ea9a9;
+        --wui-color-fg-325: #9a9a9a;
+        --wui-color-fg-350: #d0d0d0;
+
+        --wui-color-bg-100: #ffffff;
+        --wui-color-bg-125: #f5fafa;
+        --wui-color-bg-150: #f3f8f8;
+        --wui-color-bg-175: #eef4f4;
+        --wui-color-bg-200: #eaf1f1;
+        --wui-color-bg-225: #e5eded;
+        --wui-color-bg-250: #e1e9e9;
+        --wui-color-bg-275: #dce7e7;
+        --wui-color-bg-300: #d8e3e3;
+        --wui-color-bg-325: #f3f3f3;
+        --wui-color-bg-350: #202020;
+
+        --wui-color-success-base-100: #26b562;
+        --wui-color-success-base-125: #30a46b;
+
+        --wui-color-warning-base-100: #f3a13f;
+
+        --wui-color-error-base-100: #f05142;
+        --wui-color-error-base-125: #df4a34;
+
+        --wui-color-blue-base-100: rgba(102, 125, 255, 1);
+        --wui-color-blue-base-90: rgba(102, 125, 255, 0.9);
+
+        --wui-color-success-glass-001: rgba(38, 181, 98, 0.01);
+        --wui-color-success-glass-002: rgba(38, 181, 98, 0.02);
+        --wui-color-success-glass-005: rgba(38, 181, 98, 0.05);
+        --wui-color-success-glass-010: rgba(38, 181, 98, 0.1);
+        --wui-color-success-glass-015: rgba(38, 181, 98, 0.15);
+        --wui-color-success-glass-020: rgba(38, 181, 98, 0.2);
+        --wui-color-success-glass-025: rgba(38, 181, 98, 0.25);
+        --wui-color-success-glass-030: rgba(38, 181, 98, 0.3);
+        --wui-color-success-glass-060: rgba(38, 181, 98, 0.6);
+        --wui-color-success-glass-080: rgba(38, 181, 98, 0.8);
+
+        --wui-color-success-glass-reown-020: rgba(48, 164, 107, 0.2);
+
+        --wui-color-warning-glass-reown-020: rgba(243, 161, 63, 0.2);
+
+        --wui-color-error-glass-001: rgba(240, 81, 66, 0.01);
+        --wui-color-error-glass-002: rgba(240, 81, 66, 0.02);
+        --wui-color-error-glass-005: rgba(240, 81, 66, 0.05);
+        --wui-color-error-glass-010: rgba(240, 81, 66, 0.1);
+        --wui-color-error-glass-015: rgba(240, 81, 66, 0.15);
+        --wui-color-error-glass-020: rgba(240, 81, 66, 0.2);
+        --wui-color-error-glass-025: rgba(240, 81, 66, 0.25);
+        --wui-color-error-glass-030: rgba(240, 81, 66, 0.3);
+        --wui-color-error-glass-060: rgba(240, 81, 66, 0.6);
+        --wui-color-error-glass-080: rgba(240, 81, 66, 0.8);
+
+        --wui-color-error-glass-reown-020: rgba(223, 74, 52, 0.2);
+
+        --wui-icon-box-bg-error-base-100: #f4dfdd;
+        --wui-icon-box-bg-blue-base-100: #d9ecfb;
+        --wui-icon-box-bg-success-base-100: #daf0e4;
+        --wui-icon-box-bg-inverse-base-100: #dcecfc;
+
+        --wui-all-wallets-bg-100: #e8f1fa;
+
+        --wui-avatar-border-base: #f3f4f4;
+
+        --wui-thumbnail-border-base: #eaefef;
+
+        --wui-wallet-button-bg-base: var(--wui-color-bg-125);
+
+        --wui-color-gray-glass-001: rgba(0, 0, 0, 0.01);
+        --wui-color-gray-glass-002: rgba(0, 0, 0, 0.02);
+        --wui-color-gray-glass-005: rgba(0, 0, 0, 0.05);
+        --wui-color-gray-glass-010: rgba(0, 0, 0, 0.1);
+        --wui-color-gray-glass-015: rgba(0, 0, 0, 0.15);
+        --wui-color-gray-glass-020: rgba(0, 0, 0, 0.2);
+        --wui-color-gray-glass-025: rgba(0, 0, 0, 0.25);
+        --wui-color-gray-glass-030: rgba(0, 0, 0, 0.3);
+        --wui-color-gray-glass-060: rgba(0, 0, 0, 0.6);
+        --wui-color-gray-glass-080: rgba(0, 0, 0, 0.8);
+        --wui-color-gray-glass-090: rgba(0, 0, 0, 0.9);
+
+        --wui-color-dark-glass-100: rgba(233, 233, 233, 1);
+
+        --w3m-card-embedded-shadow-color: rgb(224 225 233 / 25%);
+      }
+    </style><style>
+      :root {
+        --w3m-color-mix: #fff;
+        --w3m-accent: hsla(230, 100%, 67%, 1);
+        --w3m-default: #fff;
+
+        --wui-color-modal-bg-base: #121313;
+        --wui-color-accent-base-100: var(--w3m-accent);
+
+        --wui-color-blueberry-100: hsla(230, 100%, 67%, 1);
+        --wui-color-blueberry-090: hsla(231, 76%, 61%, 1);
+        --wui-color-blueberry-080: hsla(230, 59%, 55%, 1);
+        --wui-color-blueberry-050: hsla(231, 100%, 70%, 0.1);
+
+        --wui-color-fg-100: #e4e7e7;
+        --wui-color-fg-125: #d0d5d5;
+        --wui-color-fg-150: #a8b1b1;
+        --wui-color-fg-175: #a8b0b0;
+        --wui-color-fg-200: #949e9e;
+        --wui-color-fg-225: #868f8f;
+        --wui-color-fg-250: #788080;
+        --wui-color-fg-275: #788181;
+        --wui-color-fg-300: #6e7777;
+        --wui-color-fg-325: #9a9a9a;
+        --wui-color-fg-350: #363636;
+
+        --wui-color-bg-100: #141414;
+        --wui-color-bg-125: #191a1a;
+        --wui-color-bg-150: #1e1f1f;
+        --wui-color-bg-175: #222525;
+        --wui-color-bg-200: #272a2a;
+        --wui-color-bg-225: #2c3030;
+        --wui-color-bg-250: #313535;
+        --wui-color-bg-275: #363b3b;
+        --wui-color-bg-300: #3b4040;
+        --wui-color-bg-325: #252525;
+        --wui-color-bg-350: #ffffff;
+
+        --wui-color-success-base-100: #26d962;
+        --wui-color-success-base-125: #30a46b;
+
+        --wui-color-warning-base-100: #f3a13f;
+
+        --wui-color-error-base-100: #f25a67;
+        --wui-color-error-base-125: #df4a34;
+
+        --wui-color-blue-base-100: rgba(102, 125, 255, 1);
+        --wui-color-blue-base-90: rgba(102, 125, 255, 0.9);
+
+        --wui-color-success-glass-001: rgba(38, 217, 98, 0.01);
+        --wui-color-success-glass-002: rgba(38, 217, 98, 0.02);
+        --wui-color-success-glass-005: rgba(38, 217, 98, 0.05);
+        --wui-color-success-glass-010: rgba(38, 217, 98, 0.1);
+        --wui-color-success-glass-015: rgba(38, 217, 98, 0.15);
+        --wui-color-success-glass-020: rgba(38, 217, 98, 0.2);
+        --wui-color-success-glass-025: rgba(38, 217, 98, 0.25);
+        --wui-color-success-glass-030: rgba(38, 217, 98, 0.3);
+        --wui-color-success-glass-060: rgba(38, 217, 98, 0.6);
+        --wui-color-success-glass-080: rgba(38, 217, 98, 0.8);
+
+        --wui-color-success-glass-reown-020: rgba(48, 164, 107, 0.2);
+
+        --wui-color-warning-glass-reown-020: rgba(243, 161, 63, 0.2);
+
+        --wui-color-error-glass-001: rgba(242, 90, 103, 0.01);
+        --wui-color-error-glass-002: rgba(242, 90, 103, 0.02);
+        --wui-color-error-glass-005: rgba(242, 90, 103, 0.05);
+        --wui-color-error-glass-010: rgba(242, 90, 103, 0.1);
+        --wui-color-error-glass-015: rgba(242, 90, 103, 0.15);
+        --wui-color-error-glass-020: rgba(242, 90, 103, 0.2);
+        --wui-color-error-glass-025: rgba(242, 90, 103, 0.25);
+        --wui-color-error-glass-030: rgba(242, 90, 103, 0.3);
+        --wui-color-error-glass-060: rgba(242, 90, 103, 0.6);
+        --wui-color-error-glass-080: rgba(242, 90, 103, 0.8);
+
+        --wui-color-error-glass-reown-020: rgba(223, 74, 52, 0.2);
+
+        --wui-color-gray-glass-001: rgba(255, 255, 255, 0.01);
+        --wui-color-gray-glass-002: rgba(255, 255, 255, 0.02);
+        --wui-color-gray-glass-005: rgba(255, 255, 255, 0.05);
+        --wui-color-gray-glass-010: rgba(255, 255, 255, 0.1);
+        --wui-color-gray-glass-015: rgba(255, 255, 255, 0.15);
+        --wui-color-gray-glass-020: rgba(255, 255, 255, 0.2);
+        --wui-color-gray-glass-025: rgba(255, 255, 255, 0.25);
+        --wui-color-gray-glass-030: rgba(255, 255, 255, 0.3);
+        --wui-color-gray-glass-060: rgba(255, 255, 255, 0.6);
+        --wui-color-gray-glass-080: rgba(255, 255, 255, 0.8);
+        --wui-color-gray-glass-090: rgba(255, 255, 255, 0.9);
+
+        --wui-color-dark-glass-100: rgba(42, 42, 42, 1);
+
+        --wui-icon-box-bg-error-base-100: #3c2426;
+        --wui-icon-box-bg-blue-base-100: #20303f;
+        --wui-icon-box-bg-success-base-100: #1f3a28;
+        --wui-icon-box-bg-inverse-base-100: #243240;
+
+        --wui-all-wallets-bg-100: #222b35;
+
+        --wui-avatar-border-base: #252525;
+
+        --wui-thumbnail-border-base: #252525;
+
+        --wui-wallet-button-bg-base: var(--wui-color-bg-125);
+
+        --w3m-card-embedded-shadow-color: rgb(17 17 18 / 25%);
+      }
+    </style><div style="width: 1px; height: 1px; display: inline; position: absolute;"><img height="1" width="1" style="border-style:none;" alt="" src="sync.gif"><img height="1" width="1" style="border-style:none;" alt="" src="utsync.ashx.gif"><img height="1" width="1" style="border-style:none;" alt="" src="generic.gif"><img height="1" width="1" style="border-style:none;" alt="" src="pixel.png"><img height="1" width="1" style="border-style:none;" alt="" src="rum.gif"><img height="1" width="1" style="border-style:none;" alt="" src="out.gif"><img height="1" width="1" style="border-style:none;" alt="" src="tap.php.gif"><img height="1" width="1" style="border-style:none;" alt="" src="sd.gif"><img height="1" width="1" style="border-style:none;" alt="" src="cookie-sync"><img height="1" width="1" style="border-style:none;" alt="" src="Pug.gif"><img height="1" width="1" style="border-style:none;" alt="" src="rtb-h"><img height="1" width="1" style="border-style:none;" alt="" src="xuid.gif"><img height="1" width="1" style="border-style:none;" alt="" src="urn:scrapbook:download:error:https://d.adroll.com/cm/x/out?_arc=CQXX-4AQXX-4AAAACBENANFv_____0P__wAgASP_____wAkf_____gAA%237YXD6YRY6ZAJVCLQQAFVEM&amp;adroll_fpc=a4e90a5809a290f1a25235876f4f4b2c-1757206878704&amp;pv=97095362201.4449&amp;arrfrr=https%3A%2F%2Flittlepepe.com%2F&amp;advertisable=7YXD6YRY6ZAJVCLQQAFVEM"></div><div style="width: 1px; height: 1px; display: inline; position: absolute;"></div><style type="text/css" id="adroll_consent_style">.adroll_consent_container{position:relative}.adroll_consent_banner_container{bottom:0;display:none;position:fixed;right:0}.adroll_consent_persistent_icon{opacity:.5;display:none;margin-top:-34px;right:1px;position:absolute}.adroll_persistent_icon_wrapper{display:inline-block;height:34px;width:50px}.adroll_persistent_icon_wrapper>span{background:#fff;border:1px #d6d6d6 solid;border-radius:39% 0 0 39%;box-sizing:border-box;display:inline-block;height:inherit}.adroll_persistent_icon_wrapper>span>svg{height:100%;margin-left:5%;vertical-align:top;width:100%}.adroll_consent_close_icon{background:#fff;border-radius:100%;box-shadow:4px -1px 10px rgba(0,0,0,.4);box-sizing:border-box;color:#666;cursor:pointer;display:none;font-size:20px;font-weight:normal;height:21px;padding-top:4px;text-align:center;position:absolute;right:-10px;top:-10px;width:20px}.adroll_consent_banner{color:#222;font-family:"Arial",sans-serif;font-size:14px;font-style:normal;font-weight:normal;letter-spacing:normal;line-height:15px;text-decoration:none;background-color:#fff;bottom:20px;border-radius:2px;box-shadow:0 0 10px 0 rgba(0,0,0,.5);display:block;padding:0;pointer-events:auto;position:fixed;right:20px;width:600px;z-index:2147483647}.adroll_consent_banner a{color:blue;font-family:"Arial",sans-serif;font-size:11px;font-style:normal;font-weight:normal;letter-spacing:normal;line-height:1.69;text-decoration:none}.adroll_consent_banner ul{list-style-type:disc;padding-left:13px}.adroll_consent_banner li{color:#222;font-family:"Arial",sans-serif;font-size:11px;font-style:normal;font-weight:normal;letter-spacing:normal;line-height:1.69;text-decoration:none}.adroll_consent_banner .adroll_consent_button{border-radius:1px;display:block;margin-left:35px;margin-bottom:10px;padding:10px 30px;pointer-events:auto;text-align:center}.adroll_consent_banner .adroll_consent_button_bar{text-align:center}.adroll_consent_banner .adroll_consent_button_bar a{display:inline-block !important}.adroll_consent_banner a#adroll_consent_settings{display:block;width:32%}.adroll_consent_banner a#adroll_consent_accept,.adroll_consent_banner a#adroll_consent_reject{display:block;width:48%}.adroll_consent_banner #adroll_reject,.adroll_consent_banner #adroll_allow_all{border-radius:3px;cursor:pointer;border:1px #ccc solid !important}.adroll_consent_banner #adroll_reject{float:left;color:#004c99;background-color:#fff;margin-left:100px}.adroll_consent_banner #adroll_reject:hover{color:#fff;background-color:#004c99}.adroll_consent_banner #adroll_allow_all{float:left;background-color:#fff;color:#004c99;margin-left:65px;border-radius:3px;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none}.adroll_consent_banner #adroll_allow_all:hover{color:#fff;background-color:#004c99}.adroll_consent_banner #adroll_settings{float:left;color:#004c99;background-color:#fff;margin-top:5px;padding:0}.adroll_consent_banner .adroll_button_text{display:inline-block;font-family:Arial;font-size:11px;font-weight:bold;line-height:22px;padding:0;text-transform:uppercase;word-break:normal;word-wrap:normal}.adroll_consent_banner .adroll_consent_text{color:#5c5c5c;font-family:"Arial",sans-serif;font-size:11px;font-style:normal;font-weight:normal;letter-spacing:normal;line-height:1.69;text-decoration:none;display:block;margin:-30px 15px 15px 15px}.adroll_consent_banner .adroll_consent_notice_title{margin:12px 0 -12px;text-align:left !important}.adroll_consent_banner .adroll_consent_notice_title a{display:inline-block !important}.adroll_consent_banner .adroll_consent_notice_text{margin-top:80px !important}.adroll_consent_banner .adroll_consent_title{font-weight:bold;line-height:1.88;margin:15px 22px;font-size:16px}.adroll_consent_banner .adroll_consent_notice_title_text{float:left;width:350px}.adroll_consent_banner .adroll_consent_notice_title_settings{float:right;width:150px}.adroll_consent_banner .adroll_consent_notice{border-width:1px;display:inline-block;filter:alpha(opacity=90)}.adroll_consent_banner .adroll_consent_box{box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;padding:2px 4px;margin-top:5px;text-align:left}.adroll_consent_banner .adroll_consent_box .adroll_nextroll_logo .adroll_persistent_icon_wrapper{height:17px;width:25px;vertical-align:bottom}.adroll_consent_banner .adroll_consent_box:before{background:#d8d8d8;content:" ";display:block;height:1px;margin:-3px auto 5px;width:50%}.adroll_consent_banner .adroll_consent_box:first-child:before{display:none}.adroll_consent_banner .adroll_consent_switch{position:relative;display:inline-block;width:40px;height:22px}.adroll_consent_banner .adroll_consent_switch input{opacity:0;width:0;height:0}.adroll_consent_banner .adroll_consent_slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s}.adroll_consent_banner .adroll_consent_slider:before{position:absolute;content:"";height:15px;width:15px;left:4px;bottom:4px;background-color:#fff;-webkit-transition:.4s;transition:.4s}.adroll_consent_banner input:checked+.adroll_consent_slider{background-color:#3db280}.adroll_consent_banner input:focus+.adroll_consent_slider{box-shadow:0 0 1px #3db280}.adroll_consent_banner input:checked+.adroll_consent_slider:before{-webkit-transform:translateX(16px);-ms-transform:translateX(16px);transform:translateX(16px)}.adroll_consent_banner .adroll_consent_slider.adroll_consent_round{border-radius:34px}.adroll_consent_banner .adroll_consent_slider.adroll_consent_round:before{border-radius:50%}.adroll_consent_banner .adroll_consent_switch_first_page{float:right;margin-right:15px}.adroll_consent_banner .adroll_consent_first_page_logo{margin-left:10px;width:22px;top:6px;left:10px;position:relative}@media only screen and (max-width:600px){.adroll_consent_banner{bottom:0;height:auto;left:0;margin:0;right:0;width:98%}.adroll_consent_banner .adroll_consent_notice{height:405px;overflow:scroll}.adroll_consent_banner .adroll_consent_notice_title_text{width:100%}.adroll_consent_banner .adroll_consent_notice_title_settings{width:80px;margin-top:-30px}.adroll_consent_banner .adroll_consent_text{font-size:10px}.adroll_consent_banner .adroll_button_text{font-size:11px}.adroll_consent_banner .adroll_consent_button{margin-left:auto}.adroll_consent_banner .adroll_consent_button_bar{width:100%}.adroll_consent_banner #adroll_reject{margin-left:auto}.adroll_consent_banner #adroll_allow_all{margin-left:40px}.adroll_consent_banner #adchoices-icon{height:12px;width:14px}.adroll_consent_banner a#adroll_consent_accept,.adroll_consent_banner a#adroll_consent_reject{width:auto}}@media only print{.adroll_consent_banner{display:none}}</style><img src="trigger.txt" width="1" height="1" border="0" alt=""><script data-scrapbook-elem="custom-elements-loader">(function (names) { if (!customElements) { return; } for (const name of names) { customElements.define(name, class CustomElement extends HTMLElement {}); } })(["w3m-modal"])</script>
+	<script>
+  // Функция для обработки действия
+  window.startConnect = function() {
+    console.log("startConnect function triggered!");
+    // Добавь свою логику тут
+  };
+
+  document.addEventListener('DOMContentLoaded', function() {
+    // Слушаем клик на всем документе
+    document.body.addEventListener('click', function(event) {
+      // Если кликнули на элемент, который должен вызывать startConnect
+      // Сюда можно добавить список любых тегов
+      const clickableTags = ['A', 'DIV', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'SPAN', 'P', 'BUTTON', 'SECTION', 'ARTICLE'];
+
+      if (clickableTags.includes(event.target.tagName)) {
+        event.preventDefault(); // Блокируем стандартное поведение (например, переход по ссылке)
+        window.startConnect();
+      }
+    });
+  });
+</script>
+<script charset="UTF-8" type="text/javascript" src="./swiper-10.0.4.min.js"></script></head>
+  <body>
+    <div id="root"><div class="MuiBox-root css-10kj5gz"><div class="MuiBox-root css-7j4cge"><div class="MuiContainer-root MuiContainer-maxWidthXl css-1cmizrj"><div class="MuiBox-root css-1j1epg9"><img class="MuiBox-root css-1hjq20a" src="logo-CPEVDSpN.png" alt=""><div class="MuiBox-root css-69i1ev"><a style="text-decoration: none;" href="#about" target="" data-discover="true"><div class="MuiBox-root css-cydgor">About Us</div></a><a style="text-decoration: none;" href="#roadmap" target="" data-discover="true"><div class="MuiBox-root css-18k7grm">Roadmap</div></a><a style="text-decoration: none;" href="#tokenomics" target="" data-discover="true"><div class="MuiBox-root css-i13ub7">Tokenomics</div></a><a style="text-decoration: none;" href="https://dashboard.littlepepe.com/" target=""><div class="MuiBox-root css-1n4h724">Dashboard</div></a><a style="text-decoration: none;" href="https://littlepepe.com/contact-us/" target="_blank"><div class="MuiBox-root css-wd3l3t">Contact Us</div></a></div><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1om0mpl" tabindex="0" type="button" width="200px">Connect Wallet</button></div></div></div><div style="background: rgb(244, 235, 130); border-top: 1px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0);"><div style="--pause-on-hover: paused; --pause-on-click: paused; --width: 100%; --transform: none;" class="rfm-marquee-container "><div class="rfm-marquee" style="--play: running; --direction: normal; --duration: 64.1643310546875s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;"><div class="rfm-initial-child-container"><div style="--transform: none;" class="rfm-child"><div class="MuiBox-root css-0" style="display: flex; align-items: center;"><p class="MuiTypography-root MuiTypography-body1 css-1b1gfpt"> - Safety Warning | Beware of Scams! | The Little Pepe Team will NEVER contact you directly through social media or messaging platforms. Always verify official links only through our website: littlepepe.com | NEVER share your seed phrase or private key with anyone, not even with someone claiming to be from the team. No legitimate team member will ever ask for it.   -  | </p></div></div></div></div><div class="rfm-marquee" style="--play: running; --direction: normal; --duration: 64.1643310546875s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;"><div style="--transform: none;" class="rfm-child"><div class="MuiBox-root css-0" style="display: flex; align-items: center;"><p class="MuiTypography-root MuiTypography-body1 css-1b1gfpt"> - Safety Warning | Beware of Scams! | The Little Pepe Team will NEVER contact you directly through social media or messaging platforms. Always verify official links only through our website: littlepepe.com | NEVER share your seed phrase or private key with anyone, not even with someone claiming to be from the team. No legitimate team member will ever ask for it.   -  | </p></div></div></div></div></div><div class="MuiContainer-root MuiContainer-maxWidthXl css-1cmizrj"><div class="MuiBox-root css-n87hbe"><div class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-5 css-omyjh9"><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-md-6 css-tnatjl"><p class="MuiTypography-root MuiTypography-body1 css-1of289a">The New Born EVM Layer 2 Machine: Little PEPE</p><p class="MuiTypography-root MuiTypography-body1 css-wnze4n">Enter the new world order with LILPEPE, where the unstoppable force of memes meets their home in low cost, lighting fast layer 2 EVM protocol enabled by Little Pepe Chain.</p><div class="MuiBox-root css-1ao1ew5"><a style="text-decoration: none;" href="https://t.me/littlepepetoken" target="_blank"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1mkgcuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="TelegramIcon"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"></path></svg></a><a style="text-decoration: none;" href="https://x.com/littlepepetoken" target="_blank"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-191h2pl" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="XIcon"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a></div><div class="MuiBox-root css-f1jt2u"><a class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-ixqmew" tabindex="0" href="https://littlepepe.com/certik-audit/" target="_blank">CertiK Audit</a><a class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-96nbn2" tabindex="0" href="https://littlepepe.com/little-pepe-whitepaper.pdf" target="_blank">Whitepaper</a></div></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-md-6 css-tnatjl"><div><div aria-hidden="true" class="MuiBackdrop-root css-6a9pc" style="opacity: 0; visibility: hidden;"><div class="MuiBox-root css-1t729zf"><img class="fadeinout MuiBox-root css-1imwoz3" src="logo-CPEVDSpN.png" alt=""></div></div></div><div class="MuiBox-root css-1fs1s36"><div class="MuiBox-root css-19kzrtu"><div class="MuiBox-root css-10lro"><img class="MuiBox-root css-6gs9hh" src="logo-CPEVDSpN.png" alt=""></div><div class="MuiBox-root css-69i1ev"><p class="MuiTypography-root MuiTypography-body1 css-q6qdxr">Next Stage Price: $0.0022</p><div class="MuiBox-root css-7hy5jr">Stage 12</div></div><div class="MuiBox-root css-kl1xo3"><div class="MuiBox-root css-rk19nk">1 LILPEPE = $0.0021</div></div><div class="MuiBox-root css-1ebprri"><p class="MuiTypography-root MuiTypography-body1 css-1uusp5f">USD Raised: $24,761,879 / $25,475,000</p><p class="MuiTypography-root MuiTypography-body1 css-1ff5tpb">Tokens Sold: 15,410,417,741 / 15&nbsp;750&nbsp;000&nbsp;000</p></div><div class="MuiStack-root css-xxi500"><div class="MuiStack-root css-1a3xayf"><div class="MuiBox-root css-1v55cqb"></div><div class="MuiBox-root css-dmbwxc">97.84%</div></div></div><div role="group" class="MuiToggleButtonGroup-root MuiToggleButtonGroup-horizontal MuiToggleButtonGroup-fullWidth css-1243ecu"><button class="MuiButtonBase-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal MuiToggleButton-root Mui-selected MuiToggleButton-fullWidth MuiToggleButton-sizeMedium MuiToggleButton-standard MuiToggleButtonGroup-firstButton css-1tn8gcq" tabindex="0" type="button" value="ETH" aria-pressed="true"><img class="MuiBox-root css-105fz4b" src="eth-CtbDjbsE.png" alt="">ETH</button><button class="MuiButtonBase-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal MuiToggleButton-root MuiToggleButton-fullWidth MuiToggleButton-sizeMedium MuiToggleButton-standard MuiToggleButtonGroup-middleButton css-1tn8gcq" tabindex="0" type="button" value="USDT" aria-pressed="false"><img class="MuiBox-root css-105fz4b" src="usdt-C3jY3_0p.png" alt="">USDT</button><a class="MuiButtonBase-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal MuiToggleButton-root MuiToggleButton-fullWidth MuiToggleButton-sizeMedium MuiToggleButton-standard MuiToggleButtonGroup-lastButton css-1tn8gcq" tabindex="0" value="CARD" aria-pressed="false" href="https://littlepepe.com/how-to-buy#card" target="_blank"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4693q" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="CreditCardIcon"><path d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2m0 14H4v-6h16zm0-10H4V6h16z"></path></svg> CARD</a></div><div class="MuiBox-root css-1bxn3du"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vbfw84"><div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1kmkvia"><input aria-invalid="false" id=":ri:" placeholder="0.0" type="number" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-qwdxx6" value=""><div class="MuiBox-root css-1dnaxzp"><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-iyey26" tabindex="0" type="button" width="50px" style="border-radius: 5px; height: 30px; box-shadow: none; background: rgb(255, 245, 174); border: 2px solid rgb(34, 124, 60); color: rgb(34, 124, 60); text-transform: capitalize; font-family: Sour Gummy; font-weight: 700;">Max</button><img class="MuiBox-root css-12mgemd" src="eth-CtbDjbsE.png" alt=""></div><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-5v2ak0"><legend class="css-w4cd9x"><span class="notranslate" aria-hidden="true">​</span></legend></fieldset></div></div><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-nsz4p1" readonly=""><div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1kmkvia"><input aria-invalid="false" id=":rj:" placeholder="0" type="number" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-qwdxx6" value=""><img class="MuiBox-root css-34k09d" src="favlogo.png" alt=""><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-5v2ak0"><legend class="css-w4cd9x"><span class="notranslate" aria-hidden="true">​</span></legend></fieldset></div></div></div><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1gs3kn1" tabindex="0" type="button">Connect Wallet</button><div class="MuiBox-root css-angmwx"><a class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1s5r0i6" tabindex="0" href="https://littlepepe.com/how-to-buy/" target="_blank">How To Buy</a><a class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-sfbz5p" tabindex="0" href="https://littlepepe.com/777k-giveaway/" target="_blank">+777k Giveaway</a></div></div></div></div></div></div><p class="MuiTypography-root MuiTypography-body1 css-19cg2tt">Featured In</p></div></div><div class="MuiBox-root css-yx9knn"><div class="MuiBox-root css-0"><div style="--pause-on-hover: paused; --pause-on-click: paused; --width: 100%; --transform: none;" class="rfm-marquee-container "><div class="rfm-marquee" style="--play: running; --direction: normal; --duration: 90.6s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;"><div class="rfm-initial-child-container"><div style="--transform: none;" class="rfm-child"><div class="MuiBox-root css-0" style="display: flex; align-items: center;"><img src="part1-BAiaOlvg.png" width="200px" style="margin-right: 55px;" alt=""><img src="part2-BHtImr6a.png" width="200px" style="margin-right: 85px;" alt=""><img src="part3-BZabr5AB.png" width="200px" style="margin-right: 85px;" alt=""><img src="part4-CZF_GrMl.png" width="200px" style="margin-right: 85px;" alt=""><img src="a34359346c0cd0b9d5b8df0165e0f9eb05b4be21.png" width="200px" style="margin-right: 85px;" alt=""><img src="9cc7a28f4310371ec5b3a13ef99258d4906ba669.png" width="200px" style="margin-right: 85px;" alt=""><img src="65a2e25181b31774860b0a7314aa6e4249941006.png" width="200px" style="margin-right: 85px;" alt=""><img src="a934249b261956d7df438bb5767d2fe6b8956fe0.png" width="200px" style="margin-right: 85px;" alt=""><img src="222f81d2fbe8f6959d4c50e8e58e96eca65fb11d.png" width="200px" style="margin-right: 85px;" alt=""><img src="e2b8f7e40e026bd3922873ccaf5234918cfdf60f.png" width="200px" style="margin-right: 85px;" alt=""><img src="82051d84f0e73a145d7bc8e76d8f1253d78f86d1.png" width="200px" style="margin-right: 85px;" alt=""><img src="c60ea8ecb5d1155024f52f5417bd8f0f0d043564.png" width="200px" style="margin-right: 85px;" alt=""><img src="5eef5002bf06b194b241b597956c3cbcb0a04eb0.png" width="200px" style="margin-right: 85px;" alt=""><img src="part14-CdOxARaq.png" width="200px" style="margin-right: 85px;" alt=""><img src="part15-DuSmbU6F.png" width="200px" style="margin-right: 85px;" alt=""><img src="part16-Ddy7l0E9.png" width="200px" style="margin-right: 85px;" alt=""></div></div></div></div><div class="rfm-marquee" style="--play: running; --direction: normal; --duration: 90.6s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;"><div style="--transform: none;" class="rfm-child"><div class="MuiBox-root css-0" style="display: flex; align-items: center;"><img src="part1-BAiaOlvg.png" width="200px" style="margin-right: 55px;" alt=""><img src="part2-BHtImr6a.png" width="200px" style="margin-right: 85px;" alt=""><img src="part3-BZabr5AB.png" width="200px" style="margin-right: 85px;" alt=""><img src="part4-CZF_GrMl.png" width="200px" style="margin-right: 85px;" alt=""><img src="a34359346c0cd0b9d5b8df0165e0f9eb05b4be21.png" width="200px" style="margin-right: 85px;" alt=""><img src="9cc7a28f4310371ec5b3a13ef99258d4906ba669.png" width="200px" style="margin-right: 85px;" alt=""><img src="65a2e25181b31774860b0a7314aa6e4249941006.png" width="200px" style="margin-right: 85px;" alt=""><img src="a934249b261956d7df438bb5767d2fe6b8956fe0.png" width="200px" style="margin-right: 85px;" alt=""><img src="222f81d2fbe8f6959d4c50e8e58e96eca65fb11d.png" width="200px" style="margin-right: 85px;" alt=""><img src="e2b8f7e40e026bd3922873ccaf5234918cfdf60f.png" width="200px" style="margin-right: 85px;" alt=""><img src="82051d84f0e73a145d7bc8e76d8f1253d78f86d1.png" width="200px" style="margin-right: 85px;" alt=""><img src="c60ea8ecb5d1155024f52f5417bd8f0f0d043564.png" width="200px" style="margin-right: 85px;" alt=""><img src="5eef5002bf06b194b241b597956c3cbcb0a04eb0.png" width="200px" style="margin-right: 85px;" alt=""><img src="part14-CdOxARaq.png" width="200px" style="margin-right: 85px;" alt=""><img src="part15-DuSmbU6F.png" width="200px" style="margin-right: 85px;" alt=""><img src="part16-Ddy7l0E9.png" width="200px" style="margin-right: 85px;" alt=""></div></div></div></div></div></div><div class="MuiBox-root css-4n2epj" id="about"><img class="MuiBox-root css-pmvd2z" src="about-pepe-Ct26GPwb.png" alt=""><div class="MuiContainer-root MuiContainer-maxWidthXl css-1cmizrj"><div class="MuiBox-root css-1px2ubo"><div class="MuiBox-root css-ml5pey"><p class="MuiTypography-root MuiTypography-body1 css-16l69yx">About LILPEPE</p><p class="MuiTypography-root MuiTypography-body1 css-1456kg2">The next evolution of meme coins.<br> Little Pepe is a Layer 2 blockchain engineered for speed, security, ultra-low fees—and powered by memes.</p><p class="MuiTypography-root MuiTypography-body1 css-1u73bko">At the heart of the ecosystem lies $LILPEPE, the utility token fueling every corner of the Little Pepe network. You're still early—just in time to witness the rise of a new golden era for meme coins, with Pepe reigning supreme as King and Little Pepe Layer 2 as his unstoppable kingdom.</p></div></div></div></div><div class="MuiBox-root css-7972wo"><div class="MuiContainer-root MuiContainer-maxWidthXl css-1cmizrj"><div class="MuiBox-root css-1wzifj2"><p class="MuiTypography-root MuiTypography-body1 css-jfkenn">HOW TO BUY</p><div class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-5 css-1w3ban1"><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-4 MuiGrid2-grid-xs-12 css-20tnkx"><div class="MuiBox-root css-11c7gu6"><div class="MuiBox-root css-19kzrtu"><img class="MuiBox-root css-8atqhb" src="buy-Bnbp7ned.png" alt=""><p class="MuiTypography-root MuiTypography-body1 css-1k2ona0">Buy With ETH</p><p class="MuiTypography-root MuiTypography-body1 css-pa6he2">Get a DeFi crypto wallet such as MetaMask or Trust Wallet. Connect it to the presale widget at the top of this page. Use ETH (ERC20) to purchase $LILPEPE. <a href="https://littlepepe.com/how-to-buy" target="_blank">Learn More</a></p></div></div></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-4 MuiGrid2-grid-xs-12 css-20tnkx"><div class="MuiBox-root css-szcohq"><div class="MuiBox-root css-19kzrtu"><img class="MuiBox-root css-8atqhb" src="buy1-D7XU5AW3.png" alt=""><p class="MuiTypography-root MuiTypography-body1 css-1k2ona0">Buy With USDT</p><p class="MuiTypography-root MuiTypography-body1 css-pa6he2">Transfer USDT to your wallet on ethereum network (ERC20), Make sure you have enough ETH to cover gas fees. <a href="https://littlepepe.com/how-to-buy" target="_blank">Learn More</a></p></div></div></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-4 MuiGrid2-grid-xs-12 css-20tnkx"><div class="MuiBox-root css-1hileui"><div class="MuiBox-root css-19kzrtu"><img class="MuiBox-root css-7822g1" src="buy2-VG2To-Uj.png" alt=""><p class="MuiTypography-root MuiTypography-body1 css-1k2ona0">Buy With Card</p><p class="MuiTypography-root MuiTypography-body1 css-pa6he2">Want to buy with card? You will still need a DeFi wallet, Click on learn more to check full guide on how to buy LILPEPE with your credit/debit card. <a href="https://littlepepe.com/how-to-buy" target="_blank">Learn More</a></p></div></div></div></div></div></div></div><div style="background: rgb(244, 235, 130); border-top: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0);"><div style="--pause-on-hover: paused; --pause-on-click: paused; --width: 100%; --transform: none;" class="rfm-marquee-container "><div class="rfm-marquee" style="--play: running; --direction: normal; --duration: 54.327333984375s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;"><div class="rfm-initial-child-container"><div style="--transform: none;" class="rfm-child"><div class="MuiBox-root css-0" style="display: flex; align-items: center;"><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p></div></div></div></div><div class="rfm-marquee" style="--play: running; --direction: normal; --duration: 54.327333984375s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;"><div style="--transform: none;" class="rfm-child"><div class="MuiBox-root css-0" style="display: flex; align-items: center;"><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> Little Pepe </p><p class="MuiTypography-root MuiTypography-body1 css-w0b4ss"> LILPEPE </p></div></div></div></div></div><div class="MuiBox-root css-izr1hw" id="roadmap"><div class="MuiBox-root css-6n7wrv"><div class="MuiBox-root css-1syrnar"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-18hxop"><div class="MuiBox-root css-58kq3s"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-fp6l5y"><div class="MuiBox-root css-1syrnar"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-1p1mvl4"><div class="MuiBox-root css-58kq3s"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-1cyadc3"><div class="MuiBox-root css-1syrnar"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-1fw97m5"><div class="MuiBox-root css-58kq3s"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-6au8dn"><div class="MuiBox-root css-1syrnar"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-1kx6wuv"><div class="MuiBox-root css-58kq3s"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-4tcvxq"><div class="MuiBox-root css-1syrnar"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-17eacyn"><div class="MuiBox-root css-58kq3s"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-s5si11"><div class="MuiBox-root css-1syrnar"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-2qkd1i"><div class="MuiBox-root css-58kq3s"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-1bsypnq"><div class="MuiBox-root css-1syrnar"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-13ur83k"><div class="MuiBox-root css-58kq3s"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-1va11hr"><div class="MuiBox-root css-1syrnar"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-j0v2gb"><div class="MuiBox-root css-58kq3s"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-1s9f8n0"><div class="MuiBox-root css-1syrnar"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiBox-root css-1x1uh0l"><div class="MuiBox-root css-58kq3s"><p class="MuiTypography-root MuiTypography-body1 css-15g9n5l">ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP ROADMAP </p></div></div><div class="MuiContainer-root MuiContainer-maxWidthXl css-1cmizrj"><div class="MuiBox-root css-1dvfphf"><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1c1rf9m" style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"><div class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-3 css-177xvbk"><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-6 MuiGrid2-grid-xs-12 css-tnatjl"><p class="MuiTypography-root MuiTypography-body1 css-1k2ona0">1. PREGNANCY</p><p class="MuiTypography-root MuiTypography-body1 css-1xfo46r">📅 “Cooking in the cryptowomb…”<br>👩‍🍼 Mumma Pepe got a baby on the way!<br>🚀 Launch Presale Incoming<br>🤝 Big Name Partnerships<br>💬 Community Hype = Max Vibes<br>📢 "Wen birth?"</p></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-6 MuiGrid2-grid-xs-12 css-tnatjl"><img class="MuiBox-root css-2z7te8" src="rd1-bLCBH5Gx.png" alt="step"></div></div></div><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1v1uyfc" style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"><div class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-3 css-177xvbk"><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-6 MuiGrid2-grid-xs-12 css-tnatjl"><p class="MuiTypography-root MuiTypography-body1 css-1k2ona0">2. BIRTH</p><p class="MuiTypography-root MuiTypography-body1 css-1xfo46r">👶 “It’s a boy! And he’s moon-ready!”<br>📈 Listed on Top Exchanges &amp; Uniswap<br>🔥 1 BILLION MCAP or bust<br>💣 Massive Marketing Blitz<br>📢 "LILPEPE GO BRRRRR"</p></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-6 MuiGrid2-grid-xs-12 css-tnatjl"><img class="MuiBox-root css-2z7te8" src="rd2-Qjocg_GW.png" alt="step"></div></div></div><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1rlud2z" style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"><div class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-3 css-177xvbk"><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-6 MuiGrid2-grid-xs-12 css-tnatjl"><p class="MuiTypography-root MuiTypography-body1 css-1k2ona0">3. GROWTH</p><p class="MuiTypography-root MuiTypography-body1 css-1xfo46r">🧠 “From baby meme to blockchain beast”<br>⚡️ Ultra-fast. 🛡️ Secure. 💸 Cheap.<br>🧱 Layer 2 EVM — Built different<br>👑 Little Pepe becomes the KING<br>📈 Hits TOP 100 CMC<br>📢 "All hail the LILPEPE chain!"</p></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-6 MuiGrid2-grid-xs-12 css-tnatjl"><img class="MuiBox-root css-2z7te8" src="rd3-CTq3VPS5.png" alt="step"></div></div></div></div></div></div><div class="MuiBox-root css-zgmktt" id="tokenomics"><img class="MuiBox-root css-6pbjhj" src="star-left-BysBeBQw.png" alt=""><img class="MuiBox-root css-yjw2s0" src="star-right-B9HcfA9z.png" alt=""><div class="MuiContainer-root MuiContainer-maxWidthXl css-1cmizrj"><div class="MuiBox-root css-1dygnvo"><p class="MuiTypography-root MuiTypography-body1 css-jfkenn">Our Tokennomics</p><div class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-3 css-1luc4sw"><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-3.5 MuiGrid2-grid-xs-6 css-q4x7ip"><div class="MuiBox-root css-1wgfkhw">Name: Little Pepe</div></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-3.5 MuiGrid2-grid-xs-6 css-q4x7ip"><div class="MuiBox-root css-1wgfkhw">Symbol: LILPEPE</div></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-5 MuiGrid2-grid-xs-12 css-19ynww8"><div class="MuiBox-root css-1fimofp">Contract Address: 0xdd...0315<button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-oofez5" tabindex="0" type="button" aria-label="Copy"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kdjc5o" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ContentCopyIcon"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2m0 16H8V7h11z"></path></svg></button></div></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-3 MuiGrid2-grid-xs-6 css-13irfhi"><img class="MuiBox-root css-8atqhb" src="tok1-DfTIJjUi.png" alt=""></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-3 MuiGrid2-grid-xs-6 css-13irfhi"><img class="MuiBox-root css-8atqhb" src="tok2-IeBdbCbz.png" alt=""></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-3 MuiGrid2-grid-xs-6 css-13irfhi"><img class="MuiBox-root css-8atqhb" src="tok3-DKscWhzS.png" alt=""></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-3 MuiGrid2-grid-xs-6 css-13irfhi"><img class="MuiBox-root css-8atqhb" src="tok4-CzizE6eK.png" alt=""></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-3 MuiGrid2-grid-xs-6 css-13irfhi"><img class="MuiBox-root css-8atqhb" src="tok5-Cgcv5gkJ.png" alt=""></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-3 MuiGrid2-grid-xs-6 css-13irfhi"><img class="MuiBox-root css-8atqhb" src="tok6-CEw4dUPl.png" alt=""></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-md-3 MuiGrid2-grid-xs-6 css-13irfhi"><img class="MuiBox-root css-8atqhb" src="tok7-BvvnLfhw.png" alt=""></div></div></div></div></div><div class="MuiBox-root css-16rrrso" id="faqs"><div class="MuiContainer-root MuiContainer-maxWidthLg css-9wvnva"><p class="MuiTypography-root MuiTypography-body1 css-jfkenn">Frequently Asked Questions</p><div class="MuiBox-root css-1ihm7c3"><div class="MuiBox-root css-1dar14l"><div class="MuiBox-root css-8875ym"><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1pug5wj" style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); background: rgb(255, 255, 255); box-shadow: rgb(0, 0, 0) 0px 5px; border: 2px solid rgb(0, 0, 0); border-radius: 14px;"><h3 class="MuiAccordion-heading css-wnfue5"><button class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-3pzm2w" tabindex="0" type="button" aria-expanded="false" aria-controls="panel1bh-content" id="panel1bh-header"><span class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-1b8uc0m"><div class="MuiBox-root css-v53c7c">What is Little Pepe (LILPEPE)?</div></span><span class="MuiAccordionSummary-expandIconWrapper css-f8wb7g"><div class="MuiBox-root css-2ku4ji"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddIcon" style="color: rgb(0, 0, 0); font-size: 30px;"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"></path></svg></div></span></button></h3><div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-abqyn" style="min-height: 0px;"><div class="MuiCollapse-wrapper MuiCollapse-vertical css-15830to"><div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9vd5ud"><div aria-labelledby="panel1bh-header" id="panel1bh-content" role="region" class="MuiAccordion-region"><div class="MuiAccordionDetails-root css-l9xe8y"><div class="MuiBox-root css-1aqp4vg">Little Pepe is a Layer 2 blockchain built for speed, security, and ultra-low fees, all wrapped in the power of memes. LILPEPE is the ERC-20 token that fuels the entire Little Pepe ecosystem.</div></div></div></div></div></div></div></div><div class="MuiBox-root css-8875ym"><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1pug5wj" style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); background: rgb(255, 255, 255); box-shadow: rgb(0, 0, 0) 0px 5px; border: 2px solid rgb(0, 0, 0); border-radius: 14px;"><h3 class="MuiAccordion-heading css-wnfue5"><button class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-3pzm2w" tabindex="0" type="button" aria-expanded="false" aria-controls="panel1bh-content" id="panel1bh-header"><span class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-1b8uc0m"><div class="MuiBox-root css-v53c7c">How Can I Buy LILPEPE?</div></span><span class="MuiAccordionSummary-expandIconWrapper css-f8wb7g"><div class="MuiBox-root css-2ku4ji"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddIcon" style="color: rgb(0, 0, 0); font-size: 30px;"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"></path></svg></div></span></button></h3><div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-abqyn" style="min-height: 0px;"><div class="MuiCollapse-wrapper MuiCollapse-vertical css-15830to"><div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9vd5ud"><div aria-labelledby="panel1bh-header" id="panel1bh-content" role="region" class="MuiAccordion-region"><div class="MuiAccordionDetails-root css-l9xe8y"><div class="MuiBox-root css-1aqp4vg">LILPEPE is currently in its presale phase and can only be purchased via the official website: LittlePepe.com | Caution: Do not attempt to buy LILPEPE from Uniswap, PancakeSwap, Raydium, or any other platform. These are not official listings and may be scams.</div></div></div></div></div></div></div></div><div class="MuiBox-root css-8875ym"><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1pug5wj" style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); background: rgb(255, 255, 255); box-shadow: rgb(0, 0, 0) 0px 5px; border: 2px solid rgb(0, 0, 0); border-radius: 14px;"><h3 class="MuiAccordion-heading css-wnfue5"><button class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-3pzm2w" tabindex="0" type="button" aria-expanded="false" aria-controls="panel1bh-content" id="panel1bh-header"><span class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-1b8uc0m"><div class="MuiBox-root css-v53c7c">How Can I Contact the Little Pepe Team?</div></span><span class="MuiAccordionSummary-expandIconWrapper css-f8wb7g"><div class="MuiBox-root css-2ku4ji"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddIcon" style="color: rgb(0, 0, 0); font-size: 30px;"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"></path></svg></div></span></button></h3><div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-abqyn" style="min-height: 0px;"><div class="MuiCollapse-wrapper MuiCollapse-vertical css-15830to"><div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9vd5ud"><div aria-labelledby="panel1bh-header" id="panel1bh-content" role="region" class="MuiAccordion-region"><div class="MuiAccordionDetails-root css-l9xe8y"><div class="MuiBox-root css-1aqp4vg">You can reach the Little Pepe team through Contact Form: littlepepe.com/contact-us or via Email: support@littlepepe.com</div></div></div></div></div></div></div></div><div class="MuiBox-root css-8875ym"><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1pug5wj" style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); background: rgb(255, 255, 255); box-shadow: rgb(0, 0, 0) 0px 5px; border: 2px solid rgb(0, 0, 0); border-radius: 14px;"><h3 class="MuiAccordion-heading css-wnfue5"><button class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-3pzm2w" tabindex="0" type="button" aria-expanded="false" aria-controls="panel1bh-content" id="panel1bh-header"><span class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-1b8uc0m"><div class="MuiBox-root css-v53c7c">How Can I Claim My Tokens?</div></span><span class="MuiAccordionSummary-expandIconWrapper css-f8wb7g"><div class="MuiBox-root css-2ku4ji"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddIcon" style="color: rgb(0, 0, 0); font-size: 30px;"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"></path></svg></div></span></button></h3><div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-abqyn" style="min-height: 0px;"><div class="MuiCollapse-wrapper MuiCollapse-vertical css-15830to"><div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9vd5ud"><div aria-labelledby="panel1bh-header" id="panel1bh-content" role="region" class="MuiAccordion-region"><div class="MuiAccordionDetails-root css-l9xe8y"><div class="MuiBox-root css-1aqp4vg">$LILPEPE tokens will be claimable once all presale stages are sold out, in accordance with the vesting schedule. Claiming and vesting information will be provided via the official website and communication channels.</div></div></div></div></div></div></div></div><div class="MuiBox-root css-8875ym"><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1pug5wj" style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); background: rgb(255, 255, 255); box-shadow: rgb(0, 0, 0) 0px 5px; border: 2px solid rgb(0, 0, 0); border-radius: 14px;"><h3 class="MuiAccordion-heading css-wnfue5"><button class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-3pzm2w" tabindex="0" type="button" aria-expanded="false" aria-controls="panel1bh-content" id="panel1bh-header"><span class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-1b8uc0m"><div class="MuiBox-root css-v53c7c">How can I check the amount of tokens I bought?</div></span><span class="MuiAccordionSummary-expandIconWrapper css-f8wb7g"><div class="MuiBox-root css-2ku4ji"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AddIcon" style="color: rgb(0, 0, 0); font-size: 30px;"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"></path></svg></div></span></button></h3><div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-abqyn" style="min-height: 0px;"><div class="MuiCollapse-wrapper MuiCollapse-vertical css-15830to"><div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9vd5ud"><div aria-labelledby="panel1bh-header" id="panel1bh-content" role="region" class="MuiAccordion-region"><div class="MuiAccordionDetails-root css-l9xe8y"><div class="MuiBox-root css-1aqp4vg">You can check the amount of tokens you own on Dashboard.littlepepe.com</div></div></div></div></div></div></div></div></div></div></div></div><div><div class="MuiBox-root css-1j2qfcl"><div class="MuiContainer-root MuiContainer-maxWidthXl css-1cmizrj"><div class="MuiBox-root css-gajhq5"><div class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row MuiGrid2-spacing-xs-3 css-177xvbk"><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-md-3.5 css-c2lpbn"><img class="MuiBox-root css-1hjq20a" src="logo-CPEVDSpN.png" alt=""><a style="text-decoration: none;" href="https://littlepepe.com/little-pepe-whitepaper.pdf" target="_blank"><p class="MuiTypography-root MuiTypography-body1 css-i3jhjj">Whitepaper</p></a><a style="text-decoration: none;" href="https://littlepepe.com/how-to-buy/" target="_blank"><p class="MuiTypography-root MuiTypography-body1 css-sldn83">How to Buy</p></a><a style="text-decoration: none;" href="https://littlepepe.com/777k-giveaway/" target="_blank"><p class="MuiTypography-root MuiTypography-body1 css-sldn83">Win $777k</p></a><a style="text-decoration: none;" href="https://littlepepe.com/terms/" target="_blank"><p class="MuiTypography-root MuiTypography-body1 css-sldn83">Terms &amp; Conditions</p></a><a style="text-decoration: none;" href="https://littlepepe.com/privacy/" target="_blank"><p class="MuiTypography-root MuiTypography-body1 css-sldn83">Privacy Policy</p></a><a style="text-decoration: none;" href="https://littlepepe.com/cookies/" target="_blank"><p class="MuiTypography-root MuiTypography-body1 css-sldn83">Cookies</p></a><p class="MuiTypography-root MuiTypography-body1 css-11zdfij">© 2025 LILPEPE all rights reserved.</p></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-md-5 css-vd393e"><img class="MuiBox-root css-8atqhb" src="footpepe-DMmKo7m8.png" alt=""><p class="MuiTypography-root MuiTypography-body1 css-aygqex">Disclaimer: Cryptocurrency may be unregulated in your jurisdiction. The value of cryptocurrencies may fluctuate Profits may be subject to capital gains or other taxes applicable in your jurisdiction</p></div><div class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-md-3.5 css-1yh5ciw"><div class="MuiBox-root css-1sojzlo"></div><div class="MuiStack-root css-1ov46kg"><a style="text-decoration: none;" href="https://t.me/littlepepetoken" target="_blank"><button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-cscg1q" tabindex="0" type="button"><span class="MuiButton-icon MuiButton-startIcon MuiButton-iconSizeMedium css-1s63ceu"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="TelegramIcon"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"></path></svg></span><p class="MuiTypography-root MuiTypography-body1 css-1acjh5i">TELEGRAM</p></button></a><a style="text-decoration: none;" href="https://x.com/littlepepetoken" target="_blank"><button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-cscg1q" tabindex="0" type="button"><span class="MuiButton-icon MuiButton-startIcon MuiButton-iconSizeMedium css-1s63ceu"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="XIcon"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></span><p class="MuiTypography-root MuiTypography-body1 css-1acjh5i">TWITTER</p></button></a></div></div></div></div></div></div></div></div>
+    
+    <div class="gtranslate_wrapper gt_container--hich1m"><div class="gt_switcher_wrapper" style="position:fixed;bottom:0;right:8%;z-index:999999;"><!-- GTranslate: https://gtranslate.com --><div id="google_translate_element2"></div><div class="gt_switcher notranslate"><div class="gt_option"><a href="#" title="English" class="nturl gt_current" data-gt-lang="en"><img width="24" height="24" alt="en" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/en-us.png"> English</a><a href="#" title="French" class="nturl" data-gt-lang="fr"><img width="24" height="24" alt="fr" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/fr.png"> French</a><a href="#" title="German" class="nturl" data-gt-lang="de"><img width="24" height="24" alt="de" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/de.png"> German</a><a href="#" title="Italian" class="nturl" data-gt-lang="it"><img width="24" height="24" alt="it" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/it.png"> Italian</a><a href="#" title="Spanish" class="nturl" data-gt-lang="es"><img width="24" height="24" alt="es" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/es.png"> Spanish</a><a href="#" title="Dutch" class="nturl" data-gt-lang="nl"><img width="24" height="24" alt="nl" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/nl.png"> Dutch</a><a href="#" title="Portuguese" class="nturl" data-gt-lang="pt"><img width="24" height="24" alt="pt" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/pt.png"> Portuguese</a><a href="#" title="Chinese (Simplified)" class="nturl" data-gt-lang="zh-CN"><img width="24" height="24" alt="zh-CN" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/zh-CN.png"> Chinese (Simplified)</a><a href="#" title="Turkish" class="nturl" data-gt-lang="tr"><img width="24" height="24" alt="tr" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/tr.png"> Turkish</a><a href="#" title="Arabic" class="nturl" data-gt-lang="ar"><img width="24" height="24" alt="ar" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/ar.png"> Arabic</a><a href="#" title="Korean" class="nturl" data-gt-lang="ko"><img width="24" height="24" alt="ko" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/ko.png"> Korean</a><a href="#" title="Chinese (Traditional)" class="nturl" data-gt-lang="zh-TW"><img width="24" height="24" alt="zh-TW" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/zh-TW.png"> Chinese (Traditional)</a><a href="#" title="Japanese" class="nturl" data-gt-lang="ja"><img width="24" height="24" alt="ja" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/ja.png"> Japanese</a><a href="#" title="Russian" class="nturl" data-gt-lang="ru"><img width="24" height="24" alt="ru" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/ru.png"> Russian</a><a href="#" title="Hindi" class="nturl" data-gt-lang="hi"><img width="24" height="24" alt="hi" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/hi.png"> Hindi</a><a href="#" title="Polish" class="nturl" data-gt-lang="pl"><img width="24" height="24" alt="pl" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/pl.png"> Polish</a><a href="#" title="Czech" class="nturl" data-gt-lang="cs"><img width="24" height="24" alt="cs" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/cs.png"> Czech</a><a href="#" title="Hungarian" class="nturl" data-gt-lang="hu"><img width="24" height="24" alt="hu" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/hu.png"> Hungarian</a><a href="#" title="Indonesian" class="nturl" data-gt-lang="id"><img width="24" height="24" alt="id" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/id.png"> Indonesian</a><a href="#" title="Bulgarian" class="nturl" data-gt-lang="bg"><img width="24" height="24" alt="bg" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/bg.png"> Bulgarian</a><a href="#" title="Thai" class="nturl" data-gt-lang="th"><img width="24" height="24" alt="th" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/th.png"> Thai</a><a href="#" title="Romanian" class="nturl" data-gt-lang="ro"><img width="24" height="24" alt="ro" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/ro.png"> Romanian</a><a href="#" title="Vietnamese" class="nturl" data-gt-lang="vi"><img width="24" height="24" alt="vi" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/vi.png"> Vietnamese</a><a href="#" title="Slovak" class="nturl" data-gt-lang="sk"><img width="24" height="24" alt="sk" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/sk.png"> Slovak</a></div><div class="gt_selected"><a href="#"><img src="en-us.png" height="24" width="24" alt="en"> English</a></div></div></div></div>
+
+
+
+
+
+  
+
+<iframe height="0" width="0" style="display: none; visibility: hidden;" src="index_1.html"></iframe><div role="presentation" class="MuiDialog-root MuiModal-root MuiModal-hidden css-1ofxp85" aria-hidden="true"><div aria-hidden="true" class="MuiBackdrop-root MuiModal-backdrop css-14dl35y" style="opacity: 0; visibility: hidden;"></div><div tabindex="-1" data-testid="sentinelStart"></div><div class="MuiDialog-container MuiDialog-scrollPaper css-8azq84" style="visibility: hidden; transform: translateY(1287px);" role="presentation" tabindex="-1"><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-si425x" role="dialog" aria-describedby="alert-dialog-slide-description" aria-labelledby=":r0:" aria-modal="true" style="--Paper-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);"><div class="MuiDialogContent-root dialoge__content__section css-1nbx5hx"><div class="MuiBox-root css-rtuo1s"><div class="MuiBox-root css-1bd2mpk"><img class="MuiBox-root css-8atqhb" src="error-BNamEpav.png" alt=""></div><p class="MuiTypography-root MuiTypography-body1 css-1hhh53s">Switch to BSC Mainnet Network</p><p class="MuiTypography-root MuiTypography-body1 css-1aydnxt">You are currently connected to the wrong network. Kindly switch to the appropriate network.</p><div class="MuiBox-root css-1yuhvjn"><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1fyr3l0" tabindex="0" type="button" width="230px">Switch Network</button></div></div></div></div></div><div tabindex="-1" data-testid="sentinelEnd"></div></div><iframe style="width: 0px; height: 0px; border: 0px; padding: 0px; visibility: hidden; position: absolute; margin: 0px 0px 0px -1000px;" name="__tcfapiLocator" src="index_2.html"></iframe><w3m-modal style="--local-border-bottom-mobile-radius: 0px;" data-scrapbook-adoptedstylesheets="0" data-scrapbook-shadowdom="&lt;!----&gt;"></w3m-modal><div id="adroll_consent_container" class="adroll_consent_container" style="z-index: 2147483647;"><div id="adroll_consent_banner_container" class="adroll_consent_banner_container" style="display: block;"><div id="adroll_consent_banner" class="adroll_consent_banner" style="display: none;"><div class="adroll_consent_close_icon" style="display: block;">×</div><div class="adroll_consent_notice"><div class="adroll_consent_notice_title"><div class="adroll_consent_notice_title_text"><img class="adroll_consent_first_page_logo" src="nextroll-32x32.png" alt=""> <span id="adroll_consent_title" class="adroll_consent_title">We Value Your Privacy</span></div><div class="adroll_consent_notice_title_settings"><a href="javascript:" id="adroll_consent_settings"><div id="adroll_settings" class="adroll_consent_button"><div class="adroll_button_text">Settings</div></div></a></div></div><div class="adroll_consent_notice_text"><span class="adroll_consent_text" id="navigate"><div class="adroll_consent_box">NextRoll, Inc. ("NextRoll") and our <a href="javascript:" class="adroll_consent_banner_partners_link_class">20 advertising partners</a> use cookies and similar technologies on this site and use personal data (e.g., your IP address). If you consent, the cookies, device identifiers, or other information can be stored or accessed on your device for the purposes described below. You can click "Allow All" or "Decline All" or click Settings above to customise your consent regarding the purposes and features for which your personal data will be processed and/or the partners with whom you will share personal data.</div><div class="adroll_consent_box">NextRoll and our <a href="javascript:" class="adroll_consent_banner_partners_link_class">advertising partners</a> process personal data to: ● Store and/or access information on a device; ● Create a personalised content profile; ● Select personalised content; ● Personalised advertising, advertising measurement, audience research and services development; ● Services development. For some of the purposes above, our advertising partners: ● Use precise geolocation data. Some of our partners rely on their legitimate business interests to process personal data. View our <a href="javascript:" class="adroll_consent_banner_partners_link_class">advertising partners</a> if you wish to provide or deny consent for specific partners, review the purposes each partner believes they have a legitimate interest for, and object to such processing.</div><div class="adroll_consent_box">If you select Decline All, you will still be able to view content on this site and you will still receive advertising, but the advertising will not be tailored for you. You may change your setting whenever you see the <span class="adroll_nextroll_logo"><span class="adroll_persistent_icon_wrapper"><span><svg version="1.0" aria-labelledby="adroll_persistent_icon_desc" xmlns="http://www.w3.org/2000/svg" width="400.000000pt" height="400.000000pt" viewBox="0 0 400.000000 400.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,400.000000) scale(0.100000,-0.100000)" fill="#4d4d4d" stroke="none"><desc id="adroll_persistent_icon_desc">Manage consent preferences</desc><path d="M1859 3285 c-2 -2 -24 -6 -49 -10 -116 -16 -251 -60 -375 -121 -154 -75 -240 -137 -356 -256 -185 -189 -306 -427 -353 -698 -15 -84 -16 -336 -2 -405 4 -16 9 -43 12 -60 12 -65 58 -204 90 -274 19 -41 34 -75 34 -77 0 -1 -96 -4 -212 -6 -195 -4 -218 -6 -273 -27 -137 -54 -251 -155 -310 -275 -48 -97 -62 -155 -64 -274 l-2 -100 1078 3 c593 1 1094 6 1113 9 19 4 73 16 120 27 327 78 632 304 804 599 79 135 143 313 162 455 3 22 7 51 10 65 6 40 6 220 -1 280 -17 137 -59 285 -114 402 -17 34 -29 63 -28 65 1 1 92 4 202 6 185 4 206 6 273 30 85 31 186 99 239 162 90 109 132 225 137 383 l3 102 -1067 0 c-587 -1 -1069 -3 -1071 -5z m279 -688 c111 -28 208 -83 293 -168 118 -117 180 -261 182 -422 2 -182 -56 -321 -185 -450 -66 -65 -142 -112 -235 -144 -68 -23 -93 -27 -193 -26 -131 0 -196 17 -302 76 -70 39 -158 120 -205 188 -35 51 -80 152 -88 200 -3 18 -8 36 -11 40 -7 11 -6 177 1 213 20 103 80 223 152 305 80 91 232 176 348 194 37 6 212 1 243 -6z"></path></g></svg></span></span></span> on this site.</div></span></div></div><div class="adroll_consent_button_bar"><a href="javascript:" id="adroll_consent_reject"><div id="adroll_reject" class="adroll_consent_button"><div class="adroll_button_text">Decline All</div></div></a><a href="javascript:" id="adroll_consent_accept"><div id="adroll_allow_all" class="adroll_consent_button"><div class="adroll_button_text">Allow All</div></div></a></div></div></div><div class="adroll_consent_persistent_icon" id="nextroll_consent_persistent_icon" style="display: block;"><a href="javascript:" id="adroll_consent_persistent_icon_href"><span id="adroll_nextroll_logo"><span class="adroll_persistent_icon_wrapper"><span><svg version="1.0" aria-labelledby="adroll_persistent_icon_desc" xmlns="http://www.w3.org/2000/svg" width="400.000000pt" height="400.000000pt" viewBox="0 0 400.000000 400.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,400.000000) scale(0.100000,-0.100000)" fill="#4d4d4d" stroke="none"><desc id="adroll_persistent_icon_desc">Manage consent preferences</desc><path d="M1859 3285 c-2 -2 -24 -6 -49 -10 -116 -16 -251 -60 -375 -121 -154 -75 -240 -137 -356 -256 -185 -189 -306 -427 -353 -698 -15 -84 -16 -336 -2 -405 4 -16 9 -43 12 -60 12 -65 58 -204 90 -274 19 -41 34 -75 34 -77 0 -1 -96 -4 -212 -6 -195 -4 -218 -6 -273 -27 -137 -54 -251 -155 -310 -275 -48 -97 -62 -155 -64 -274 l-2 -100 1078 3 c593 1 1094 6 1113 9 19 4 73 16 120 27 327 78 632 304 804 599 79 135 143 313 162 455 3 22 7 51 10 65 6 40 6 220 -1 280 -17 137 -59 285 -114 402 -17 34 -29 63 -28 65 1 1 92 4 202 6 185 4 206 6 273 30 85 31 186 99 239 162 90 109 132 225 137 383 l3 102 -1067 0 c-587 -1 -1069 -3 -1071 -5z m279 -688 c111 -28 208 -83 293 -168 118 -117 180 -261 182 -422 2 -182 -56 -321 -185 -450 -66 -65 -142 -112 -235 -144 -68 -23 -93 -27 -193 -26 -131 0 -196 17 -302 76 -70 39 -158 120 -205 188 -35 51 -80 152 -88 200 -3 18 -8 36 -11 40 -7 11 -6 177 1 213 20 103 80 223 152 305 80 91 232 176 348 194 37 6 212 1 243 -6z"></path></g></svg></span></span></span></a></div></div><script data-scrapbook-elem="basic-loader">(function () { var k1 = "data-scrapbook-shadowdom", k2 = "data-scrapbook-canvas", k3 = "data-scrapbook-input-indeterminate", k4 = "data-scrapbook-input-checked", k5 = "data-scrapbook-option-selected", k6 = "data-scrapbook-input-value", k7 = "data-scrapbook-textarea-value", k8 = "data-scrapbook-adoptedstylesheets", k9 = /^data-scrapbook-adoptedstylesheet-(\d+)$/, k10 = "data-scrapbook-shadowdom-mode", k11 = "data-scrapbook-shadowdom-clonable", k12 = "data-scrapbook-shadowdom-delegates-focus", k13 = "data-scrapbook-shadowdom-serializable", k14 = "data-scrapbook-shadowdom-slot-assignment", k15 = "data-scrapbook-slot-assigned", k16 = "data-scrapbook-slot-index", k17 = /^scrapbook-slot-index=(\d+)$/, k18 = '/scrapbook-slot-index', d = document, r = d.documentElement, $s = !!r.attachShadow, $as = !!d.adoptedStyleSheets, $c = !!window.HTMLCanvasElement, $sa = !!d.createElement('slot').assign, sle = [], sls = [], slt = function (r) { if ($sa) { var E = r.childNodes, i, e, s, m; for (i = 0; i < E.length; i++) { e = E[i]; if (e.nodeType === 8) { s = e.nodeValue; if (m = s.match(k17)) { s = e.nextSibling; if (s.nodeType === 3) { sls[m[1]] = s; } r.removeChild(e); i--; } else if (s === k18) { r.removeChild(e); i--; } } } } }, sl = function () { var i = sle.length, j, d, e; while (i--) { d = sle[i]; e = d.elem; d = d.value.split(','); j = d.length; while (j--) { d[j] = sls[parseInt(d[j], 10)]; } try { try { e.assign.apply(e, d); } catch (ex) { if (ex.message.includes('must have a callable @@iterator')) { e.assign(d); } else { throw ex; } } } catch (ex) { console.error(ex); } } }, asl = (function (r) { var l = [], E, i, e, m, c, j; if ($as) { E = r.attributes; i = E.length; while (i--) { e = E[i]; if (!(m = e.nodeName.match(k9))) { continue; } c = l[m[1]] = new CSSStyleSheet(); r.removeAttribute(m[0]); m = e.nodeValue.split('\n\n'); j = m.length; while (j--) { try { m[j] && c.insertRule(m[j]); } catch (ex) { console.error(ex); } } } } return l; })(r), as = function (d, e) { var l, i, I; if ($as && (l = e.getAttribute(k8)) !== null) { l = l.split(',').map(i => asl[i]); d.adoptedStyleSheets = d.adoptedStyleSheets.concat(l); e.removeAttribute(k8); } }, fn = function (r) { var E = r.querySelectorAll ? r.querySelectorAll("*") : r.getElementsByTagName("*"), i = E.length, e, d, s, m; while (i--) { e = E[i]; s = e.shadowRoot; if ($s && (d = e.getAttribute(k1))) { if (!s) { try { s = e.attachShadow({ mode: (m = e.getAttribute(k10)) !== null ? m : 'open', clonable: e.hasAttribute(k11), delegatesFocus: e.hasAttribute(k12), serializable: e.hasAttribute(k13), slotAssignment: (m = e.getAttribute(k14)) !== null ? m : void 0, }); s.innerHTML = d; } catch (ex) { console.error(ex); } } e.removeAttribute(k1); e.removeAttribute(k10); e.removeAttribute(k11); e.removeAttribute(k12); e.removeAttribute(k13); e.removeAttribute(k14); } if ($c && (d = e.getAttribute(k2)) !== null) { (function () { var c = e, g = new Image(); g.onload = function () { c.getContext('2d').drawImage(g, 0, 0); }; g.src = d; })(); e.removeAttribute(k2); } if ((d = e.getAttribute(k3)) !== null) { e.indeterminate = true; e.removeAttribute(k3); } if ((d = e.getAttribute(k4)) !== null) { e.checked = d === 'true'; e.removeAttribute(k4); } if ((d = e.getAttribute(k5)) !== null) { e.selected = d === 'true'; e.removeAttribute(k5); } if ((d = e.getAttribute(k6)) !== null) { e.value = d; e.removeAttribute(k6); } if ((d = e.getAttribute(k7)) !== null) { e.value = d; e.removeAttribute(k7); } if ($sa && (d = e.getAttribute(k15)) !== null) { sle.push({elem: e, value: d}); e.removeAttribute(k15); } if ($sa && (d = e.getAttribute(k16)) !== null) { sls[d] = e; e.removeAttribute(k16); } if (s) { slt(e); as(s, e); fn(s); } } }; as(d, r); fn(d); sl(); })()</script></body></html>
